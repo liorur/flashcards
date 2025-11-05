@@ -1,0 +1,282 @@
+[
+  {
+    "id": "8f9a2c1d7e3b",
+    "question": "rood",
+    "answer": "red",
+    "example": "De appel is rood.",
+    "exampleTranslation": "The apple is red."
+  },
+  {
+    "id": "5e7d8c9a2b1f",
+    "question": "blauw",
+    "answer": "blue",
+    "example": "De lucht is blauw.",
+    "exampleTranslation": "The sky is blue."
+  },
+  {
+    "id": "3a6b9d4e8c2f",
+    "question": "groen",
+    "answer": "green",
+    "example": "Het gras is groen.",
+    "exampleTranslation": "The grass is green."
+  },
+  {
+    "id": "7c4f8e1a5b9d",
+    "question": "geel",
+    "answer": "yellow",
+    "example": "De banaan is geel.",
+    "exampleTranslation": "The banana is yellow."
+  },
+  {
+    "id": "2d8e9a4c6b1f",
+    "question": "oranje",
+    "answer": "orange",
+    "example": "De sinaasappel is oranje.",
+    "exampleTranslation": "The orange is orange."
+  },
+  {
+    "id": "9b3e7d1f4a8c",
+    "question": "paars",
+    "answer": "purple",
+    "example": "De bloem is paars.",
+    "exampleTranslation": "The flower is purple."
+  },
+  {
+    "id": "6f2a8d4e9c1b",
+    "question": "roze",
+    "answer": "pink",
+    "example": "Haar jurk is roze.",
+    "exampleTranslation": "Her dress is pink."
+  },
+  {
+    "id": "4e8c2d9a6f1b",
+    "question": "bruin",
+    "answer": "brown",
+    "example": "De beer is bruin.",
+    "exampleTranslation": "The bear is brown."
+  },
+  {
+    "id": "1f7d3e9a5c8b",
+    "question": "zwart",
+    "answer": "black",
+    "example": "De kat is zwart.",
+    "exampleTranslation": "The cat is black."
+  },
+  {
+    "id": "8c6e2d4f9a1b",
+    "question": "wit",
+    "answer": "white",
+    "example": "De sneeuw is wit.",
+    "exampleTranslation": "The snow is white."
+  },
+  {
+    "id": "5a9d3e7c1f8b",
+    "question": "grijs",
+    "answer": "grey/gray",
+    "example": "De wolk is grijs.",
+    "exampleTranslation": "The cloud is grey."
+  },
+  {
+    "id": "3e7c9a2d6f1b",
+    "question": "vader",
+    "answer": "father",
+    "example": "Mijn vader werkt in Amsterdam.",
+    "exampleTranslation": "My father works in Amsterdam."
+  },
+  {
+    "id": "9d4f6e8a2c1b",
+    "question": "moeder",
+    "answer": "mother",
+    "example": "Mijn moeder is docent.",
+    "exampleTranslation": "My mother is a teacher."
+  },
+  {
+    "id": "2c8e4d9a6f3b",
+    "question": "papa",
+    "answer": "dad/daddy",
+    "example": "Papa speelt met de kinderen.",
+    "exampleTranslation": "Dad plays with the children."
+  },
+  {
+    "id": "7e3d9c6a1f8b",
+    "question": "mama",
+    "answer": "mom/mommy",
+    "example": "Mama kookt het eten.",
+    "exampleTranslation": "Mom cooks the food."
+  },
+  {
+    "id": "4f8c2e9a6d1b",
+    "question": "broer",
+    "answer": "brother",
+    "example": "Mijn broer is tien jaar oud.",
+    "exampleTranslation": "My brother is ten years old."
+  },
+  {
+    "id": "6a9e3d7c1f8b",
+    "question": "zus",
+    "answer": "sister",
+    "example": "Mijn zus studeert medicijnen.",
+    "exampleTranslation": "My sister studies medicine."
+  },
+  {
+    "id": "1d8f4e9a6c2b",
+    "question": "zoon",
+    "answer": "son",
+    "example": "Hun zoon is acht jaar.",
+    "exampleTranslation": "Their son is eight years old."
+  },
+  {
+    "id": "8e3c9d6a2f1b",
+    "question": "dochter",
+    "answer": "daughter",
+    "example": "Hun dochter heet Emma.",
+    "exampleTranslation": "Their daughter is called Emma."
+  },
+  {
+    "id": "5f7d2e9a6c1b",
+    "question": "kind",
+    "answer": "child",
+    "example": "Het kind speelt in de tuin.",
+    "exampleTranslation": "The child plays in the garden."
+  },
+  {
+    "id": "3c9e6d8a4f1b",
+    "question": "kinderen",
+    "answer": "children",
+    "example": "De kinderen gaan naar school.",
+    "exampleTranslation": "The children go to school."
+  },
+  {
+    "id": "9a6f3e8c2d1b",
+    "question": "ouders",
+    "answer": "parents",
+    "example": "Mijn ouders wonen in Utrecht.",
+    "exampleTranslation": "My parents live in Utrecht."
+  },
+  {
+    "id": "7d4e9c6a3f1b",
+    "question": "grootvader",
+    "answer": "grandfather",
+    "example": "Mijn grootvader is zeventig jaar.",
+    "exampleTranslation": "My grandfather is seventy years old."
+  },
+  {
+    "id": "2e8c9d6a4f1b",
+    "question": "grootmoeder",
+    "answer": "grandmother",
+    "example": "Mijn grootmoeder bakt koekjes.",
+    "exampleTranslation": "My grandmother bakes cookies."
+  },
+  {
+    "id": "6f3d9e8a2c1b",
+    "question": "opa",
+    "answer": "grandpa",
+    "example": "Opa leest een boek.",
+    "exampleTranslation": "Grandpa reads a book."
+  },
+  {
+    "id": "4c8e9d6a3f2b",
+    "question": "oma",
+    "answer": "grandma",
+    "example": "Oma breit een trui.",
+    "exampleTranslation": "Grandma knits a sweater."
+  },
+  {
+    "id": "1e7d9c6a4f8b",
+    "question": "kleinzoon",
+    "answer": "grandson",
+    "example": "Hun kleinzoon woont ver weg.",
+    "exampleTranslation": "Their grandson lives far away."
+  },
+  {
+    "id": "8f4c9e6a2d1b",
+    "question": "kleindochter",
+    "answer": "granddaughter",
+    "example": "Hun kleindochter komt morgen.",
+    "exampleTranslation": "Their granddaughter comes tomorrow."
+  },
+  {
+    "id": "5d9e3c8a6f1b",
+    "question": "oom",
+    "answer": "uncle",
+    "example": "Mijn oom is piloot.",
+    "exampleTranslation": "My uncle is a pilot."
+  },
+  {
+    "id": "3a8f6e9c2d1b",
+    "question": "tante",
+    "answer": "aunt",
+    "example": "Mijn tante woont in Brussel.",
+    "exampleTranslation": "My aunt lives in Brussels."
+  },
+  {
+    "id": "9c6e4d8a3f1b",
+    "question": "neef",
+    "answer": "cousin (male) / nephew",
+    "example": "Mijn neef studeert in Leiden.",
+    "exampleTranslation": "My cousin studies in Leiden."
+  },
+  {
+    "id": "7e2d9c6a5f1b",
+    "question": "nicht",
+    "answer": "cousin (female) / niece",
+    "example": "Mijn nicht is zestien jaar.",
+    "exampleTranslation": "My cousin is sixteen years old."
+  },
+  {
+    "id": "4f8e9c6a2d3b",
+    "question": "man",
+    "answer": "husband / man",
+    "example": "Haar man is tandarts.",
+    "exampleTranslation": "Her husband is a dentist."
+  },
+  {
+    "id": "2c9e6d8a4f1b",
+    "question": "vrouw",
+    "answer": "wife / woman",
+    "example": "Zijn vrouw is architect.",
+    "exampleTranslation": "His wife is an architect."
+  },
+  {
+    "id": "6d8f3e9a2c1b",
+    "question": "echtgenoot",
+    "answer": "spouse (male)",
+    "example": "Mijn echtgenoot werkt thuis.",
+    "exampleTranslation": "My spouse works from home."
+  },
+  {
+    "id": "1f7e9d6a4c8b",
+    "question": "echtgenote",
+    "answer": "spouse (female)",
+    "example": "Zijn echtgenote is advocaat.",
+    "exampleTranslation": "His spouse is a lawyer."
+  },
+  {
+    "id": "8c4f9e6a2d1b",
+    "question": "partner",
+    "answer": "partner",
+    "example": "Mijn partner en ik wonen samen.",
+    "exampleTranslation": "My partner and I live together."
+  },
+  {
+    "id": "5e9d3c8a6f2b",
+    "question": "baby",
+    "answer": "baby",
+    "example": "De baby slaapt.",
+    "exampleTranslation": "The baby sleeps."
+  },
+  {
+    "id": "3d8f6e9a2c4b",
+    "question": "gezin",
+    "answer": "family (household)",
+    "example": "Ons gezin gaat op vakantie.",
+    "exampleTranslation": "Our family goes on vacation."
+  },
+  {
+    "id": "9a6e4d8c3f1b",
+    "question": "familie",
+    "answer": "family (relatives)",
+    "example": "Mijn familie komt met Kerstmis.",
+    "exampleTranslation": "My family comes at Christmas."
+  }
+]

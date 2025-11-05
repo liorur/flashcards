@@ -28,5 +28,10 @@
     "id": "time",
     "name": "Time",
     "file": "decks/time.json"
+  },
+  {
+    "id": "colors-family",
+    "name": "Colors & Family",
+    "file": "decks/colors-family.json"
   }
 ]
