@@ -655,8 +655,8 @@ class FlashcardsApp {
                                     <span class="stat-value">${stats.successRate}%</span>
                                 </div>
                                 <div class="stat-item">
-                                    <span class="stat-label">Progress:</span>
-                                    <span class="stat-value">${stats.progress}/${stats.total}</span>
+                                    <span class="stat-label">Latest:</span>
+                                    <span class="stat-value">${stats.progress}%</span>
                                 </div>
                             </div>
                         </div>
@@ -908,7 +908,7 @@ class FlashcardsApp {
     // Calculate deck statistics from progress
     async calculateDeckStats(deckId, cardCount) {
         if (!this.currentUser) {
-            return { successRate: 0, progress: 0, total: cardCount * 2 * this.MASTERY_THRESHOLD };
+            return { successRate: 0, progress: 0 };
         }
 
         try {
@@ -921,32 +921,40 @@ class FlashcardsApp {
 
             let totalAttempts = 0;
             let correctAttempts = 0;
-            let currentCorrect = 0;
-            const totalNeeded = cardCount * 2 * this.MASTERY_THRESHOLD; // cards × directions × mastery threshold
+            let cardsWithAttempts = 0;
+            let cardsWithSuccessfulLastAttempt = 0;
 
-            // Count all attempts and correct answers
+            // Count all attempts, correct answers, and latest attempt status
             Object.values(progress).forEach(history => {
-                if (Array.isArray(history)) {
+                if (Array.isArray(history) && history.length > 0) {
+                    cardsWithAttempts++;
+
+                    // Check if the latest attempt was successful
+                    const lastAttempt = history[history.length - 1];
+                    if (lastAttempt === true) {
+                        cardsWithSuccessfulLastAttempt++;
+                    }
+
+                    // Count all attempts for overall success rate
                     history.forEach(result => {
                         totalAttempts++;
                         if (result === true) {
                             correctAttempts++;
-                            currentCorrect++;
                         }
                     });
                 }
             });
 
             const successRate = totalAttempts > 0 ? Math.round((correctAttempts / totalAttempts) * 100) : 0;
+            const latestSuccessRate = cardsWithAttempts > 0 ? Math.round((cardsWithSuccessfulLastAttempt / cardsWithAttempts) * 100) : 0;
 
             return {
                 successRate,
-                progress: currentCorrect,
-                total: totalNeeded
+                progress: latestSuccessRate
             };
         } catch (error) {
             console.error('Error calculating stats:', error);
-            return { successRate: 0, progress: 0, total: cardCount * 2 * this.MASTERY_THRESHOLD };
+            return { successRate: 0, progress: 0 };
         }
     }
 
@@ -954,22 +962,27 @@ class FlashcardsApp {
         const realDecks = this.decks.filter(d => !d.virtual);
         let totalAttempts = 0;
         let correctAttempts = 0;
-        let currentCorrect = 0;
-        let totalCards = 0;
+        let cardsWithAttempts = 0;
+        let cardsWithSuccessfulLastAttempt = 0;
 
         for (const deck of realDecks) {
-            const cards = await this.apiCall(`/api/decks/${deck.id}/cards`);
             const progress = await this.apiCall(`/api/progress/${this.currentUser.username}/${deck.id}`);
 
-            totalCards += cards.length;
-
             Object.values(progress).forEach(history => {
-                if (Array.isArray(history)) {
+                if (Array.isArray(history) && history.length > 0) {
+                    cardsWithAttempts++;
+
+                    // Check if the latest attempt was successful
+                    const lastAttempt = history[history.length - 1];
+                    if (lastAttempt === true) {
+                        cardsWithSuccessfulLastAttempt++;
+                    }
+
+                    // Count all attempts for overall success rate
                     history.forEach(result => {
                         totalAttempts++;
                         if (result === true) {
                             correctAttempts++;
-                            currentCorrect++;
                         }
                     });
                 }
@@ -977,12 +990,11 @@ class FlashcardsApp {
         }
 
         const successRate = totalAttempts > 0 ? Math.round((correctAttempts / totalAttempts) * 100) : 0;
-        const totalNeeded = totalCards * 2 * this.MASTERY_THRESHOLD;
+        const latestSuccessRate = cardsWithAttempts > 0 ? Math.round((cardsWithSuccessfulLastAttempt / cardsWithAttempts) * 100) : 0;
 
         return {
             successRate,
-            progress: currentCorrect,
-            total: totalNeeded
+            progress: latestSuccessRate
         };
     }
 }
