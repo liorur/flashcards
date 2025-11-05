@@ -204,10 +204,16 @@ main {
     justify-content: center;
 }
 
+.card-counter-display {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
 #cardCounter {
     font-weight: bold;
-    min-width: 60px;
-    text-align: center;
+    font-size: 1.1rem;
+    color: var(--text-color);
 }
 
 /* Buttons */

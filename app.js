@@ -180,6 +180,14 @@ class FlashcardsApp {
     async loadDecks() {
         try {
             this.decks = await this.apiCall('/api/decks');
+
+            // Add virtual "All Decks" deck at the beginning
+            this.decks.unshift({
+                id: 'all-decks',
+                name: 'All Decks (Random)',
+                file: 'virtual',
+                virtual: true
+            });
         } catch (error) {
             alert('Failed to load decks. Please make sure the server is running.');
             this.decks = [];
@@ -188,6 +196,11 @@ class FlashcardsApp {
 
     async loadDeckCards(deck) {
         try {
+            // Handle virtual "All Decks" deck
+            if (deck.id === 'all-decks') {
+                return await this.loadAllDecksCards();
+            }
+
             // Load cards (without history)
             const cards = await this.apiCall(`/api/decks/${deck.id}/cards`);
             this.originalCards = cards;
@@ -198,6 +211,41 @@ class FlashcardsApp {
             return this.createBidirectionalCards(this.originalCards);
         } catch (error) {
             console.error('Error loading deck cards:', error);
+            return [];
+        }
+    }
+
+    async loadAllDecksCards() {
+        try {
+            const allCards = [];
+            const realDecks = this.decks.filter(d => !d.virtual);
+
+            // Load all progress data for all decks
+            this.progress = {};
+
+            for (const deck of realDecks) {
+                const cards = await this.apiCall(`/api/decks/${deck.id}/cards`);
+                const deckProgress = await this.apiCall(`/api/progress/${this.currentUser.username}/${deck.id}`);
+
+                // Tag cards with their deck ID and merge progress
+                cards.forEach(card => {
+                    card.deckId = deck.id;
+                    card.deckName = deck.name;
+                });
+
+                // Merge progress
+                Object.assign(this.progress, deckProgress);
+
+                allCards.push(...cards);
+            }
+
+            this.originalCards = allCards;
+
+            // Create bidirectional cards and shuffle
+            const bidirectionalCards = this.createBidirectionalCards(allCards);
+            return this.shuffleArray(bidirectionalCards);
+        } catch (error) {
+            console.error('Error loading all decks cards:', error);
             return [];
         }
     }
@@ -436,9 +484,6 @@ class FlashcardsApp {
         document.getElementById('backToDecksManage').addEventListener('click', () => window.history.back());
 
         // Study Mode
-        document.getElementById('flipBtn').addEventListener('click', () => this.flipCard());
-        document.getElementById('prevBtn').addEventListener('click', () => this.previousCard());
-        document.getElementById('nextBtn').addEventListener('click', () => this.nextCard());
         document.getElementById('flashcard').addEventListener('click', () => {
             if (this.isStudying) this.flipCard();
         });
@@ -638,11 +683,6 @@ class FlashcardsApp {
 
         // Reset buttons visibility
         responseButtons.style.display = 'none';
-        flipBtn.style.display = 'block';
-
-        // Update navigation buttons
-        document.getElementById('prevBtn').disabled = this.currentIndex === 0;
-        document.getElementById('nextBtn').disabled = this.currentIndex === this.flashcards.length - 1;
     }
 
     flipCard() {
@@ -650,7 +690,6 @@ class FlashcardsApp {
 
         const card = document.getElementById('flashcard');
         const responseButtons = document.getElementById('responseButtons');
-        const flipBtn = document.getElementById('flipBtn');
         const exampleText = document.getElementById('exampleText');
 
         this.isFlipped = !this.isFlipped;
@@ -659,7 +698,6 @@ class FlashcardsApp {
             card.classList.add('flipped');
             // Show response buttons after flipping
             responseButtons.style.display = 'flex';
-            flipBtn.style.display = 'none';
 
             // Display example when flipped to answer side
             const currentCard = this.flashcards[this.currentIndex];
@@ -675,7 +713,6 @@ class FlashcardsApp {
         } else {
             card.classList.remove('flipped');
             responseButtons.style.display = 'none';
-            flipBtn.style.display = 'block';
             exampleText.innerHTML = '';
         }
     }
@@ -704,9 +741,10 @@ class FlashcardsApp {
         // Update progress for this card using ID
         this.updateCardProgress(cardId, direction, knewIt);
 
-        // Save progress to backend
-        console.log(`Saving progress for deck "${this.currentDeck.id}"...`);
-        await this.saveProgress(this.currentDeck.id);
+        // Save progress to backend (to correct deck)
+        const targetDeckId = currentCard.deckId || this.currentDeck.id;
+        console.log(`Saving progress for deck "${targetDeckId}"...`);
+        await this.saveProgress(targetDeckId);
         console.log('✓ Progress saved successfully');
 
         // Automatically move to next card
@@ -833,6 +871,11 @@ class FlashcardsApp {
         }
 
         try {
+            // Handle virtual "All Decks" - aggregate stats from all decks
+            if (deckId === 'all-decks') {
+                return await this.calculateAllDecksStats();
+            }
+
             const progress = await this.apiCall(`/api/progress/${this.currentUser.username}/${deckId}`);
 
             let totalAttempts = 0;
@@ -864,6 +907,42 @@ class FlashcardsApp {
             console.error('Error calculating stats:', error);
             return { successRate: 0, progress: 0, total: cardCount * 2 * this.MASTERY_THRESHOLD };
         }
+    }
+
+    async calculateAllDecksStats() {
+        const realDecks = this.decks.filter(d => !d.virtual);
+        let totalAttempts = 0;
+        let correctAttempts = 0;
+        let currentCorrect = 0;
+        let totalCards = 0;
+
+        for (const deck of realDecks) {
+            const cards = await this.apiCall(`/api/decks/${deck.id}/cards`);
+            const progress = await this.apiCall(`/api/progress/${this.currentUser.username}/${deck.id}`);
+
+            totalCards += cards.length;
+
+            Object.values(progress).forEach(history => {
+                if (Array.isArray(history)) {
+                    history.forEach(result => {
+                        totalAttempts++;
+                        if (result === true) {
+                            correctAttempts++;
+                            currentCorrect++;
+                        }
+                    });
+                }
+            });
+        }
+
+        const successRate = totalAttempts > 0 ? Math.round((correctAttempts / totalAttempts) * 100) : 0;
+        const totalNeeded = totalCards * 2 * this.MASTERY_THRESHOLD;
+
+        return {
+            successRate,
+            progress: currentCorrect,
+            total: totalNeeded
+        };
     }
 }
 
