@@ -335,7 +335,9 @@ class FlashcardsApp {
                 example: card.example,
                 exampleTranslation: card.exampleTranslation,
                 direction: 'forward',
-                originalIndex: index // Keep for array access to original cards
+                originalIndex: index, // Keep for array access to original cards
+                deckId: card.deckId, // Preserve deck ID for "All Decks" mode
+                deckName: card.deckName // Preserve deck name for display
             };
 
             // Reverse direction (answer -> question)
@@ -346,7 +348,9 @@ class FlashcardsApp {
                 example: card.example,
                 exampleTranslation: card.exampleTranslation,
                 direction: 'reverse',
-                originalIndex: index // Keep for array access to original cards
+                originalIndex: index, // Keep for array access to original cards
+                deckId: card.deckId, // Preserve deck ID for "All Decks" mode
+                deckName: card.deckName // Preserve deck name for display
             };
 
             // Check if card is mastered (5 correct in a row)
