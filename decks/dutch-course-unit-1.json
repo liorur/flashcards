@@ -23,7 +23,7 @@
   {
     "id": "635d223dd336",
     "question": "de cursus",
-    "answer": "course",
+    "answer": "the course",
     "example": "Dit is de cursus Nederlands.",
     "exampleTranslation": "This is the Dutch course."
   },
@@ -72,7 +72,7 @@
   {
     "id": "699e0c22c3cd",
     "question": "de docent",
-    "answer": "teacher",
+    "answer": "the teacher",
     "example": "De docent geeft les.",
     "exampleTranslation": "The teacher teaches."
   },
@@ -198,7 +198,7 @@
   {
     "id": "4575006f12bb",
     "question": "de naam",
-    "answer": "name",
+    "answer": "the name",
     "example": "Mijn naam is Jan.",
     "exampleTranslation": "My name is Jan."
   },
@@ -226,14 +226,14 @@
   {
     "id": "29c6fed61da2",
     "question": "de voornaam",
-    "answer": "first name",
+    "answer": "the first name",
     "example": "Wat is je voornaam?",
     "exampleTranslation": "What is your first name?"
   },
   {
     "id": "b6e1708a37fe",
     "question": "de achternaam",
-    "answer": "surname",
+    "answer": "the surname",
     "example": "Mijn achternaam is Jansen.",
     "exampleTranslation": "My surname is Jansen."
   },
@@ -254,7 +254,7 @@
   {
     "id": "306830bf1530",
     "question": "het land",
-    "answer": "country",
+    "answer": "the country",
     "example": "Nederland is een land.",
     "exampleTranslation": "The Netherlands is a country."
   },
@@ -275,7 +275,7 @@
   {
     "id": "4a1d3dec70dc",
     "question": "de buurman",
-    "answer": "neighbour",
+    "answer": "the neighbour",
     "example": "Mijn buurman is aardig.",
     "exampleTranslation": "My neighbour is nice."
   },
@@ -345,21 +345,21 @@
   {
     "id": "060075be359f",
     "question": "het adres",
-    "answer": "address",
+    "answer": "the address",
     "example": "Wat is je adres?",
     "exampleTranslation": "What is your address?"
   },
   {
     "id": "6bf30333deca",
     "question": "het nummer",
-    "answer": "number",
+    "answer": "the number",
     "example": "Wat is je nummer?",
     "exampleTranslation": "What is your number?"
   },
   {
     "id": "14f145c077be",
     "question": "het antwoord",
-    "answer": "answer",
+    "answer": "the answer",
     "example": "Wat is het antwoord?",
     "exampleTranslation": "What is the answer?"
   },
@@ -373,7 +373,7 @@
   {
     "id": "b9e3a40658a7",
     "question": "de postcode",
-    "answer": "postal code",
+    "answer": "the postal code",
     "example": "Wat is je postcode?",
     "exampleTranslation": "What is your postal code?"
   },
@@ -464,7 +464,7 @@
   {
     "id": "e0d0d44dc227",
     "question": "het jaar",
-    "answer": "year",
+    "answer": "the year",
     "example": "Een nieuw jaar.",
     "exampleTranslation": "A new year."
   },
@@ -478,7 +478,7 @@
   {
     "id": "03ec85e41b78",
     "question": "de les",
-    "answer": "lesson",
+    "answer": "the lesson",
     "example": "De les begint nu.",
     "exampleTranslation": "The lesson starts now."
   },
@@ -499,7 +499,7 @@
   {
     "id": "24063ddede4f",
     "question": "het boek",
-    "answer": "book",
+    "answer": "the book",
     "example": "Ik lees een boek.",
     "exampleTranslation": "I read a book."
   },
@@ -513,7 +513,7 @@
   {
     "id": "d7fd2b7c13b6",
     "question": "de tekst",
-    "answer": "text",
+    "answer": "the text",
     "example": "Lees de tekst.",
     "exampleTranslation": "Read the text."
   },
@@ -534,7 +534,7 @@
   {
     "id": "854f51cf9063",
     "question": "de bladzijde",
-    "answer": "page",
+    "answer": "the page",
     "example": "Ga naar bladzijde vijf.",
     "exampleTranslation": "Go to page five."
   },
@@ -590,7 +590,7 @@
   {
     "id": "77b45a0bfc4e",
     "question": "de pauze",
-    "answer": "break",
+    "answer": "the break",
     "example": "We nemen een pauze.",
     "exampleTranslation": "We take a break."
   },

@@ -9,7 +9,7 @@
   {
     "id": "0000007hdt7x",
     "question": "de kantine",
-    "answer": "canteen",
+    "answer": "the canteen",
     "example": "De kantine is heel groot.",
     "exampleTranslation": "The canteen is very big."
   },
@@ -23,7 +23,7 @@
   {
     "id": "000000031s9p",
     "question": "de plaats",
-    "answer": "seat / place",
+    "answer": "the seat / place",
     "example": "Is deze plaats vrij?",
     "exampleTranslation": "Is this seat free?"
   },
@@ -65,14 +65,14 @@
   {
     "id": "000000ctwwu8",
     "question": "het kopje",
-    "answer": "cup",
+    "answer": "the cup",
     "example": "Het kopje is nog vol.",
     "exampleTranslation": "The cup is still full."
   },
   {
     "id": "000000tdrzvb",
     "question": "de koffie",
-    "answer": "coffee",
+    "answer": "the coffee",
     "example": "De koffie is nog warm.",
     "exampleTranslation": "The coffee is still warm."
   },
@@ -191,14 +191,14 @@
   {
     "id": "000000niu10g",
     "question": "het bezoek",
-    "answer": "visit / visitors",
+    "answer": "the visit / visitors",
     "example": "We krijgen morgen bezoek.",
     "exampleTranslation": "We're getting visitors tomorrow."
   },
   {
     "id": "000000b1hhu7",
     "question": "de broer",
-    "answer": "brother",
+    "answer": "the brother",
     "example": "Mijn broer komt op bezoek.",
     "exampleTranslation": "My brother is coming to visit."
   },
@@ -254,7 +254,7 @@
   {
     "id": "0000005a4dfr",
     "question": "de zus",
-    "answer": "sister",
+    "answer": "the sister",
     "example": "Mijn zus woont in Amsterdam.",
     "exampleTranslation": "My sister lives in Amsterdam."
   },
@@ -275,7 +275,7 @@
   {
     "id": "000000kz6lo9",
     "question": "de foto",
-    "answer": "photo",
+    "answer": "the photo",
     "example": "Dit is een foto van mijn ouders.",
     "exampleTranslation": "This is a photo of my parents."
   },
@@ -303,7 +303,7 @@
   {
     "id": "0000004cm4mr",
     "question": "het type",
-    "answer": "type",
+    "answer": "the type",
     "example": "Welk type werk doe je?",
     "exampleTranslation": "What type of work do you do?"
   },
@@ -324,7 +324,7 @@
   {
     "id": "000000pja4ff",
     "question": "het haar",
-    "answer": "hair",
+    "answer": "the hair",
     "example": "Haar haar is heel lang.",
     "exampleTranslation": "Her hair is very long."
   },
@@ -338,7 +338,7 @@
   {
     "id": "0000003tkqh8",
     "question": "de ouders",
-    "answer": "parents",
+    "answer": "the parents",
     "example": "Mijn ouders wonen in Nederland.",
     "exampleTranslation": "My parents live in the Netherlands."
   },
@@ -387,14 +387,14 @@
   {
     "id": "000000digkoy",
     "question": "de vakantie",
-    "answer": "holiday",
+    "answer": "the holiday",
     "example": "De vakantie duurt twee weken.",
     "exampleTranslation": "The holiday lasts two weeks."
   },
   {
     "id": "000000z0q3td",
     "question": "de vader",
-    "answer": "father",
+    "answer": "the father",
     "example": "Mijn vader werkt voor een groot bedrijf.",
     "exampleTranslation": "My father works for a large company."
   },
@@ -415,14 +415,14 @@
   {
     "id": "0000009ox38d",
     "question": "het werk",
-    "answer": "work",
+    "answer": "the work",
     "example": "Het werk is heel interessant.",
     "exampleTranslation": "The work is very interesting."
   },
   {
     "id": "000000iw00ab",
     "question": "het seizoen",
-    "answer": "season",
+    "answer": "the season",
     "example": "Welk seizoen vind je het leukst?",
     "exampleTranslation": "Which season do you like best?"
   },
@@ -478,7 +478,7 @@
   {
     "id": "000000qf164y",
     "question": "de familie",
-    "answer": "family",
+    "answer": "the family",
     "example": "De hele familie komt morgen.",
     "exampleTranslation": "The whole family is coming tomorrow."
   },
