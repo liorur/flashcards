@@ -655,7 +655,7 @@ class FlashcardsApp {
                                     <span class="stat-value">${stats.successRate}%</span>
                                 </div>
                                 <div class="stat-item">
-                                    <span class="stat-label">Latest:</span>
+                                    <span class="stat-label">Progress:</span>
                                     <span class="stat-value">${stats.progress}%</span>
                                 </div>
                             </div>
@@ -921,14 +921,14 @@ class FlashcardsApp {
 
             let totalAttempts = 0;
             let correctAttempts = 0;
-            let cardsWithAttempts = 0;
             let cardsWithSuccessfulLastAttempt = 0;
+
+            // Total cards includes both directions (forward and reverse)
+            const totalCards = cardCount * 2;
 
             // Count all attempts, correct answers, and latest attempt status
             Object.values(progress).forEach(history => {
                 if (Array.isArray(history) && history.length > 0) {
-                    cardsWithAttempts++;
-
                     // Check if the latest attempt was successful
                     const lastAttempt = history[history.length - 1];
                     if (lastAttempt === true) {
@@ -946,11 +946,12 @@ class FlashcardsApp {
             });
 
             const successRate = totalAttempts > 0 ? Math.round((correctAttempts / totalAttempts) * 100) : 0;
-            const latestSuccessRate = cardsWithAttempts > 0 ? Math.round((cardsWithSuccessfulLastAttempt / cardsWithAttempts) * 100) : 0;
+            // Progress includes untested cards (count as 0)
+            const progressRate = totalCards > 0 ? Math.round((cardsWithSuccessfulLastAttempt / totalCards) * 100) : 0;
 
             return {
                 successRate,
-                progress: latestSuccessRate
+                progress: progressRate
             };
         } catch (error) {
             console.error('Error calculating stats:', error);
@@ -962,16 +963,18 @@ class FlashcardsApp {
         const realDecks = this.decks.filter(d => !d.virtual);
         let totalAttempts = 0;
         let correctAttempts = 0;
-        let cardsWithAttempts = 0;
         let cardsWithSuccessfulLastAttempt = 0;
+        let totalCards = 0;
 
         for (const deck of realDecks) {
+            const cards = await this.apiCall(`/api/decks/${deck.id}/cards`);
             const progress = await this.apiCall(`/api/progress/${this.currentUser.username}/${deck.id}`);
+
+            // Add to total cards (both directions)
+            totalCards += cards.length * 2;
 
             Object.values(progress).forEach(history => {
                 if (Array.isArray(history) && history.length > 0) {
-                    cardsWithAttempts++;
-
                     // Check if the latest attempt was successful
                     const lastAttempt = history[history.length - 1];
                     if (lastAttempt === true) {
@@ -990,11 +993,12 @@ class FlashcardsApp {
         }
 
         const successRate = totalAttempts > 0 ? Math.round((correctAttempts / totalAttempts) * 100) : 0;
-        const latestSuccessRate = cardsWithAttempts > 0 ? Math.round((cardsWithSuccessfulLastAttempt / cardsWithAttempts) * 100) : 0;
+        // Progress includes untested cards (count as 0)
+        const progressRate = totalCards > 0 ? Math.round((cardsWithSuccessfulLastAttempt / totalCards) * 100) : 0;
 
         return {
             successRate,
-            progress: latestSuccessRate
+            progress: progressRate
         };
     }
 }
