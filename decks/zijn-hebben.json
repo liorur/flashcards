@@ -1,0 +1,282 @@
+[
+  {
+    "id": "b4d80ab4ed9d",
+    "question": "ik ben",
+    "answer": "I am",
+    "example": "Ik ben een student.",
+    "exampleTranslation": "I am a student."
+  },
+  {
+    "id": "d193be3f62cb",
+    "question": "jij bent",
+    "answer": "you are (informal)",
+    "example": "Jij bent mijn vriend.",
+    "exampleTranslation": "You are my friend."
+  },
+  {
+    "id": "14c12d57a005",
+    "question": "je bent",
+    "answer": "you are (informal)",
+    "example": "Je bent erg aardig.",
+    "exampleTranslation": "You are very nice."
+  },
+  {
+    "id": "253c7153edeb",
+    "question": "u bent",
+    "answer": "you are (formal)",
+    "example": "U bent de docent.",
+    "exampleTranslation": "You are the teacher."
+  },
+  {
+    "id": "ef15186d60dd",
+    "question": "hij is",
+    "answer": "he is",
+    "example": "Hij is mijn buurman.",
+    "exampleTranslation": "He is my neighbor."
+  },
+  {
+    "id": "9c66eefb5a6e",
+    "question": "zij is",
+    "answer": "she is",
+    "example": "Zij is de docent.",
+    "exampleTranslation": "She is the teacher."
+  },
+  {
+    "id": "35f6a8e48dc9",
+    "question": "ze is",
+    "answer": "she is (informal)",
+    "example": "Ze is thuis.",
+    "exampleTranslation": "She is at home."
+  },
+  {
+    "id": "d43cb65ad003",
+    "question": "het is",
+    "answer": "it is",
+    "example": "Het is mooi weer.",
+    "exampleTranslation": "It is nice weather."
+  },
+  {
+    "id": "cc12292f8256",
+    "question": "wij zijn",
+    "answer": "we are",
+    "example": "Wij zijn studenten.",
+    "exampleTranslation": "We are students."
+  },
+  {
+    "id": "a29a678776ad",
+    "question": "we zijn",
+    "answer": "we are",
+    "example": "We zijn hier.",
+    "exampleTranslation": "We are here."
+  },
+  {
+    "id": "f06e6b62db78",
+    "question": "jullie zijn",
+    "answer": "you (plural) are",
+    "example": "Jullie zijn docenten.",
+    "exampleTranslation": "You are teachers."
+  },
+  {
+    "id": "04f7abae696a",
+    "question": "zij zijn",
+    "answer": "they are",
+    "example": "Zij zijn mijn vrienden.",
+    "exampleTranslation": "They are my friends."
+  },
+  {
+    "id": "3fb0c82d5742",
+    "question": "ze zijn",
+    "answer": "they are (informal)",
+    "example": "Ze zijn in de klas.",
+    "exampleTranslation": "They are in the classroom."
+  },
+  {
+    "id": "7b212a88efeb",
+    "question": "ik heb",
+    "answer": "I have",
+    "example": "Ik heb een boek.",
+    "exampleTranslation": "I have a book."
+  },
+  {
+    "id": "320b68dadf8e",
+    "question": "jij hebt",
+    "answer": "you have (informal)",
+    "example": "Jij hebt een vraag.",
+    "exampleTranslation": "You have a question."
+  },
+  {
+    "id": "5e3186b2fe69",
+    "question": "je hebt",
+    "answer": "you have (informal)",
+    "example": "Je hebt gelijk.",
+    "exampleTranslation": "You are right."
+  },
+  {
+    "id": "4c85d9928c9f",
+    "question": "u hebt",
+    "answer": "you have (formal)",
+    "example": "U hebt twee kinderen.",
+    "exampleTranslation": "You have two children."
+  },
+  {
+    "id": "59b43033dc9b",
+    "question": "u heeft",
+    "answer": "you have (formal)",
+    "example": "U heeft een mooie tuin.",
+    "exampleTranslation": "You have a beautiful garden."
+  },
+  {
+    "id": "c52bcf44f162",
+    "question": "hij heeft",
+    "answer": "he has",
+    "example": "Hij heeft een auto.",
+    "exampleTranslation": "He has a car."
+  },
+  {
+    "id": "606f7e69e386",
+    "question": "zij heeft",
+    "answer": "she has",
+    "example": "Zij heeft een hond.",
+    "exampleTranslation": "She has a dog."
+  },
+  {
+    "id": "3a445d624e95",
+    "question": "ze heeft",
+    "answer": "she has (informal)",
+    "example": "Ze heeft een fiets.",
+    "exampleTranslation": "She has a bicycle."
+  },
+  {
+    "id": "d364d3ea0325",
+    "question": "het heeft",
+    "answer": "it has",
+    "example": "Het heeft vier poten.",
+    "exampleTranslation": "It has four legs."
+  },
+  {
+    "id": "1d3ff8874a32",
+    "question": "wij hebben",
+    "answer": "we have",
+    "example": "Wij hebben een cursus.",
+    "exampleTranslation": "We have a course."
+  },
+  {
+    "id": "39ef362e82b6",
+    "question": "we hebben",
+    "answer": "we have",
+    "example": "We hebben tijd.",
+    "exampleTranslation": "We have time."
+  },
+  {
+    "id": "1eec2e04ba9a",
+    "question": "jullie hebben",
+    "answer": "you (plural) have",
+    "example": "Jullie hebben twee docenten.",
+    "exampleTranslation": "You have two teachers."
+  },
+  {
+    "id": "81bbd97b21c5",
+    "question": "zij hebben",
+    "answer": "they have",
+    "example": "Zij hebben een huis.",
+    "exampleTranslation": "They have a house."
+  },
+  {
+    "id": "ab40b288cba2",
+    "question": "ze hebben",
+    "answer": "they have (informal)",
+    "example": "Ze hebben honger.",
+    "exampleTranslation": "They are hungry."
+  },
+  {
+    "id": "ec1b24747c65",
+    "question": "mijn",
+    "answer": "my",
+    "example": "Dit is mijn boek.",
+    "exampleTranslation": "This is my book."
+  },
+  {
+    "id": "075e4615b0c9",
+    "question": "jouw",
+    "answer": "your (informal)",
+    "example": "Wat is jouw naam?",
+    "exampleTranslation": "What is your name?"
+  },
+  {
+    "id": "4b823da9432d",
+    "question": "je (possessive)",
+    "answer": "your (informal)",
+    "example": "Is dit je tas?",
+    "exampleTranslation": "Is this your bag?"
+  },
+  {
+    "id": "154a76321349",
+    "question": "uw",
+    "answer": "your (formal)",
+    "example": "Wat is uw adres?",
+    "exampleTranslation": "What is your address?"
+  },
+  {
+    "id": "f0aae03d4a07",
+    "question": "zijn (possessive)",
+    "answer": "his / its",
+    "example": "Dit is zijn huis.",
+    "exampleTranslation": "This is his house."
+  },
+  {
+    "id": "205e80dae8b6",
+    "question": "haar",
+    "answer": "her",
+    "example": "Dat is haar auto.",
+    "exampleTranslation": "That is her car."
+  },
+  {
+    "id": "2c092adf8050",
+    "question": "ons (het-words)",
+    "answer": "our",
+    "example": "Dit is ons huis.",
+    "exampleTranslation": "This is our house."
+  },
+  {
+    "id": "5e3e8ec21ab9",
+    "question": "onze (de-words)",
+    "answer": "our",
+    "example": "Dit is onze tuin.",
+    "exampleTranslation": "This is our garden."
+  },
+  {
+    "id": "3c4dac215eb7",
+    "question": "jullie (possessive)",
+    "answer": "your (plural)",
+    "example": "Waar is jullie school?",
+    "exampleTranslation": "Where is your school?"
+  },
+  {
+    "id": "fe8c0dec4bd1",
+    "question": "hun",
+    "answer": "their",
+    "example": "Dit is hun hond.",
+    "exampleTranslation": "This is their dog."
+  },
+  {
+    "id": "f4325d7e9cc9",
+    "question": "de",
+    "answer": "the (common gender)",
+    "example": "De man is groot.",
+    "exampleTranslation": "The man is tall."
+  },
+  {
+    "id": "8061ee7adbc7",
+    "question": "het",
+    "answer": "the (neuter gender)",
+    "example": "Het huis is groot.",
+    "exampleTranslation": "The house is big."
+  },
+  {
+    "id": "19e6bb879cde",
+    "question": "een",
+    "answer": "a / an",
+    "example": "Ik heb een boek.",
+    "exampleTranslation": "I have a book."
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "question": "de docent",
+    "answer": "teacher",
+    "example": "De docent geeft les.",
+    "exampleTranslation": "The teacher teaches."
+  },
+  {
+    "question": "docenten (docent)",
+    "answer": "teachers",
+    "example": "Jullie hebben twee docenten.",
+    "exampleTranslation": "You have two teachers."
+  },
+  {
+    "question": "hebben (hebben)",
+    "answer": "have",
+    "example": "We hebben een boek.",
+    "exampleTranslation": "We have a book."
+  },
+  {
+    "question": "twee",
+    "answer": "two",
+    "example": "Ik heb twee kinderen.",
+    "exampleTranslation": "I have two children."
+  },
+  {
+    "question": "andere",
+    "answer": "other",
+    "example": "De andere dag.",
+    "exampleTranslation": "The other day."
+  }
+]

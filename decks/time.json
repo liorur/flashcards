@@ -1,0 +1,338 @@
+[
+  {
+    "id": "f9f4e39cf979",
+    "question": "januari",
+    "answer": "January",
+    "example": "Januari is de eerste maand.",
+    "exampleTranslation": "January is the first month."
+  },
+  {
+    "id": "dff22e759f74",
+    "question": "februari",
+    "answer": "February",
+    "example": "Februari heeft 28 dagen.",
+    "exampleTranslation": "February has 28 days."
+  },
+  {
+    "id": "f076c7ed3629",
+    "question": "maart",
+    "answer": "March",
+    "example": "In maart begint de lente.",
+    "exampleTranslation": "Spring starts in March."
+  },
+  {
+    "id": "bef1375be577",
+    "question": "april",
+    "answer": "April",
+    "example": "April doet wat hij wil.",
+    "exampleTranslation": "April does what it wants. (Dutch saying)"
+  },
+  {
+    "id": "145be92510b8",
+    "question": "mei",
+    "answer": "May",
+    "example": "Mei is een mooie maand.",
+    "exampleTranslation": "May is a beautiful month."
+  },
+  {
+    "id": "f568773a8413",
+    "question": "juni",
+    "answer": "June",
+    "example": "In juni is het zomer.",
+    "exampleTranslation": "In June it's summer."
+  },
+  {
+    "id": "339e77c5cb91",
+    "question": "juli",
+    "answer": "July",
+    "example": "Juli is de zevende maand.",
+    "exampleTranslation": "July is the seventh month."
+  },
+  {
+    "id": "a56d62ce71fa",
+    "question": "augustus",
+    "answer": "August",
+    "example": "Augustus is vakantietijd.",
+    "exampleTranslation": "August is vacation time."
+  },
+  {
+    "id": "ff09a0e18b22",
+    "question": "september",
+    "answer": "September",
+    "example": "School begint in september.",
+    "exampleTranslation": "School starts in September."
+  },
+  {
+    "id": "c84646a2265a",
+    "question": "oktober",
+    "answer": "October",
+    "example": "Oktober is een herfstmaand.",
+    "exampleTranslation": "October is an autumn month."
+  },
+  {
+    "id": "7d8c23136957",
+    "question": "november",
+    "answer": "November",
+    "example": "November kan koud zijn.",
+    "exampleTranslation": "November can be cold."
+  },
+  {
+    "id": "494c493cfde4",
+    "question": "december",
+    "answer": "December",
+    "example": "December is de laatste maand.",
+    "exampleTranslation": "December is the last month."
+  },
+  {
+    "id": "c60cea032c71",
+    "question": "maandag",
+    "answer": "Monday",
+    "example": "Maandag is de eerste dag van de week.",
+    "exampleTranslation": "Monday is the first day of the week."
+  },
+  {
+    "id": "78552b5fe3fd",
+    "question": "dinsdag",
+    "answer": "Tuesday",
+    "example": "Op dinsdag heb ik les.",
+    "exampleTranslation": "On Tuesday I have class."
+  },
+  {
+    "id": "b8351cbdcca8",
+    "question": "woensdag",
+    "answer": "Wednesday",
+    "example": "Woensdag is de derde dag.",
+    "exampleTranslation": "Wednesday is the third day."
+  },
+  {
+    "id": "51fc2cc4af70",
+    "question": "donderdag",
+    "answer": "Thursday",
+    "example": "Donderdag ga ik sporten.",
+    "exampleTranslation": "Thursday I go exercising."
+  },
+  {
+    "id": "de3f3b551fb5",
+    "question": "vrijdag",
+    "answer": "Friday",
+    "example": "Vrijdag is bijna weekend!",
+    "exampleTranslation": "Friday is almost weekend!"
+  },
+  {
+    "id": "aa553db36c6d",
+    "question": "zaterdag",
+    "answer": "Saturday",
+    "example": "Zaterdag ga ik winkelen.",
+    "exampleTranslation": "Saturday I go shopping."
+  },
+  {
+    "id": "e6934997eadc",
+    "question": "zondag",
+    "answer": "Sunday",
+    "example": "Zondag is rustdag.",
+    "exampleTranslation": "Sunday is rest day."
+  },
+  {
+    "id": "38b64cf4b805",
+    "question": "seconde",
+    "answer": "second",
+    "example": "Een minuut heeft zestig seconden.",
+    "exampleTranslation": "A minute has sixty seconds."
+  },
+  {
+    "id": "4cdc2f204b88",
+    "question": "minuut",
+    "answer": "minute",
+    "example": "Wacht een minuut, alsjeblieft.",
+    "exampleTranslation": "Wait a minute, please."
+  },
+  {
+    "id": "ab91c5d519e8",
+    "question": "uur",
+    "answer": "hour",
+    "example": "Een uur heeft zestig minuten.",
+    "exampleTranslation": "An hour has sixty minutes."
+  },
+  {
+    "id": "5ae491784d69",
+    "question": "dag",
+    "answer": "day",
+    "example": "Een dag heeft vierentwintig uur.",
+    "exampleTranslation": "A day has twenty-four hours."
+  },
+  {
+    "id": "158672dcebf3",
+    "question": "week",
+    "answer": "week",
+    "example": "Een week heeft zeven dagen.",
+    "exampleTranslation": "A week has seven days."
+  },
+  {
+    "id": "fd30a0162c65",
+    "question": "maand",
+    "answer": "month",
+    "example": "Een jaar heeft twaalf maanden.",
+    "exampleTranslation": "A year has twelve months."
+  },
+  {
+    "id": "e979df067278",
+    "question": "jaar",
+    "answer": "year",
+    "example": "Dit jaar is tweeduizend vijfentwintig.",
+    "exampleTranslation": "This year is two thousand twenty-five."
+  },
+  {
+    "id": "926d74c65c82",
+    "question": "elf uur",
+    "answer": "11:00 / eleven o'clock",
+    "example": "Het is elf uur 's ochtends.",
+    "exampleTranslation": "It is eleven o'clock in the morning."
+  },
+  {
+    "id": "bf44a06db466",
+    "question": "vijf over elf",
+    "answer": "11:05 / five past eleven",
+    "example": "Het is vijf over elf.",
+    "exampleTranslation": "It is five past eleven."
+  },
+  {
+    "id": "b2c523607321",
+    "question": "tien over elf",
+    "answer": "11:10 / ten past eleven",
+    "example": "De trein vertrekt om tien over elf.",
+    "exampleTranslation": "The train departs at ten past eleven."
+  },
+  {
+    "id": "3473389a10f8",
+    "question": "kwart over elf",
+    "answer": "11:15 / quarter past eleven",
+    "example": "We hebben afgesproken om kwart over elf.",
+    "exampleTranslation": "We agreed to meet at quarter past eleven."
+  },
+  {
+    "id": "6796bd0dba14",
+    "question": "tien voor half twaalf",
+    "answer": "11:20 / twenty past eleven",
+    "example": "Het is tien voor half twaalf.",
+    "exampleTranslation": "It is twenty past eleven."
+  },
+  {
+    "id": "3c6cd47a4fb7",
+    "question": "vijf voor half twaalf",
+    "answer": "11:25 / twenty-five past eleven",
+    "example": "De les begint om vijf voor half twaalf.",
+    "exampleTranslation": "The lesson starts at twenty-five past eleven."
+  },
+  {
+    "id": "8e0b6ae38fc8",
+    "question": "half twaalf",
+    "answer": "11:30 / half past eleven",
+    "example": "Lunch is om half twaalf.",
+    "exampleTranslation": "Lunch is at half past eleven."
+  },
+  {
+    "id": "98c93078ff91",
+    "question": "vijf over half twaalf",
+    "answer": "11:35 / twenty-five to twelve",
+    "example": "Het is vijf over half twaalf.",
+    "exampleTranslation": "It is twenty-five to twelve."
+  },
+  {
+    "id": "21966ee5d1a0",
+    "question": "tien over half twaalf",
+    "answer": "11:40 / twenty to twelve",
+    "example": "De bus komt om tien over half twaalf.",
+    "exampleTranslation": "The bus comes at twenty to twelve."
+  },
+  {
+    "id": "abeaa53977ca",
+    "question": "kwart voor twaalf",
+    "answer": "11:45 / quarter to twelve",
+    "example": "We eten om kwart voor twaalf.",
+    "exampleTranslation": "We eat at quarter to twelve."
+  },
+  {
+    "id": "09a71618f14f",
+    "question": "tien voor twaalf",
+    "answer": "11:50 / ten to twelve",
+    "example": "Het is al tien voor twaalf!",
+    "exampleTranslation": "It's already ten to twelve!"
+  },
+  {
+    "id": "04961a18dd8a",
+    "question": "vijf voor twaalf",
+    "answer": "11:55 / five to twelve",
+    "example": "We vertrekken om vijf voor twaalf.",
+    "exampleTranslation": "We leave at five to twelve."
+  },
+  {
+    "id": "5d16dfd935a4",
+    "question": "1 januari 2025",
+    "answer": "January 1, 2025",
+    "example": "Nieuwjaarsdag is 1 januari 2025.",
+    "exampleTranslation": "New Year's Day is January 1, 2025."
+  },
+  {
+    "id": "1bed201d81cb",
+    "question": "14 februari",
+    "answer": "February 14 / Valentine's Day",
+    "example": "Valentijnsdag is 14 februari.",
+    "exampleTranslation": "Valentine's Day is February 14."
+  },
+  {
+    "id": "b5ff293f9a37",
+    "question": "27 april",
+    "answer": "April 27 / King's Day",
+    "example": "Koningsdag is 27 april.",
+    "exampleTranslation": "King's Day is April 27."
+  },
+  {
+    "id": "ba2998fcc17f",
+    "question": "5 mei",
+    "answer": "May 5 / Liberation Day",
+    "example": "Bevrijdingsdag is 5 mei.",
+    "exampleTranslation": "Liberation Day is May 5."
+  },
+  {
+    "id": "733ed5bb8b7b",
+    "question": "15 juni 1990",
+    "answer": "June 15, 1990",
+    "example": "Ik ben geboren op 15 juni 1990.",
+    "exampleTranslation": "I was born on June 15, 1990."
+  },
+  {
+    "id": "00827bc03406",
+    "question": "31 oktober",
+    "answer": "October 31 / Halloween",
+    "example": "Halloween is 31 oktober.",
+    "exampleTranslation": "Halloween is October 31."
+  },
+  {
+    "id": "9f5b3df9c669",
+    "question": "5 december",
+    "answer": "December 5 / Sinterklaas",
+    "example": "Sinterklaas is 5 december.",
+    "exampleTranslation": "Sinterklaas is December 5."
+  },
+  {
+    "id": "9f6e60a7adfc",
+    "question": "25 december",
+    "answer": "December 25 / Christmas",
+    "example": "Kerstmis is 25 december.",
+    "exampleTranslation": "Christmas is December 25."
+  },
+  {
+    "id": "024e92e4615f",
+    "question": "31 december",
+    "answer": "December 31 / New Year's Eve",
+    "example": "Oudjaarsavond is 31 december.",
+    "exampleTranslation": "New Year's Eve is December 31."
+  },
+  {
+    "id": "093071ff62d3",
+    "question": "10 maart 2024",
+    "answer": "March 10, 2024",
+    "example": "De vergadering is op 10 maart 2024.",
+    "exampleTranslation": "The meeting is on March 10, 2024."
+  }
+]

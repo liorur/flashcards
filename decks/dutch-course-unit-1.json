@@ -1,0 +1,611 @@
+[
+  {
+    "id": "084c4c810dc0",
+    "question": "welkom (in)",
+    "answer": "welcome (to)",
+    "example": "Welkom in Nederland!",
+    "exampleTranslation": "Welcome to the Netherlands!"
+  },
+  {
+    "id": "c4173f7c178e",
+    "question": "goedemorgen",
+    "answer": "good morning",
+    "example": "Goedemorgen, hoe gaat het?",
+    "exampleTranslation": "Good morning, how are you?"
+  },
+  {
+    "id": "985b45ff5407",
+    "question": "allemaal",
+    "answer": "everyone",
+    "example": "Goedemorgen allemaal!",
+    "exampleTranslation": "Good morning everyone!"
+  },
+  {
+    "id": "635d223dd336",
+    "question": "de cursus",
+    "answer": "course",
+    "example": "Dit is de cursus Nederlands.",
+    "exampleTranslation": "This is the Dutch course."
+  },
+  {
+    "id": "ced13308ccdc",
+    "question": "de",
+    "answer": "the",
+    "example": "De zon schijnt.",
+    "exampleTranslation": "The sun is shining."
+  },
+  {
+    "id": "a1b4c76c9fe8",
+    "question": "Nederlands",
+    "answer": "Dutch",
+    "example": "Ik leer Nederlands.",
+    "exampleTranslation": "I am learning Dutch."
+  },
+  {
+    "id": "3d7077b7ae88",
+    "question": "ik",
+    "answer": "I",
+    "example": "Ik ben student.",
+    "exampleTranslation": "I am a student."
+  },
+  {
+    "id": "a5f64b9d1078",
+    "question": "ben (zijn)",
+    "answer": "am",
+    "example": "Ik ben docent.",
+    "exampleTranslation": "I am a teacher."
+  },
+  {
+    "id": "9e2b885ce08b",
+    "question": "en",
+    "answer": "and",
+    "example": "Jij en ik.",
+    "exampleTranslation": "You and I."
+  },
+  {
+    "id": "872789f902f6",
+    "question": "jullie",
+    "answer": "you (plural)",
+    "example": "Jullie zijn studenten.",
+    "exampleTranslation": "You are students."
+  },
+  {
+    "id": "699e0c22c3cd",
+    "question": "de docent",
+    "answer": "teacher",
+    "example": "De docent geeft les.",
+    "exampleTranslation": "The teacher teaches."
+  },
+  {
+    "id": "76fdea917a65",
+    "question": "docenten (docent)",
+    "answer": "teachers",
+    "example": "We hebben twee docenten.",
+    "exampleTranslation": "We have two teachers."
+  },
+  {
+    "id": "bb0bc36be822",
+    "question": "hebben (hebben)",
+    "answer": "have",
+    "example": "We hebben een boek.",
+    "exampleTranslation": "We have a book."
+  },
+  {
+    "id": "5f2c30bc0f5e",
+    "question": "twee",
+    "answer": "two",
+    "example": "Ik heb twee kinderen.",
+    "exampleTranslation": "I have two children."
+  },
+  {
+    "id": "56e94d4ef316",
+    "question": "andere",
+    "answer": "other",
+    "example": "De andere dag.",
+    "exampleTranslation": "The other day."
+  },
+  {
+    "id": "2013612d53ed",
+    "question": "is (zijn)",
+    "answer": "is",
+    "example": "Hij is docent.",
+    "exampleTranslation": "He is a teacher."
+  },
+  {
+    "id": "aff4a0a091b5",
+    "question": "hij",
+    "answer": "he",
+    "example": "Hij komt uit China.",
+    "exampleTranslation": "He comes from China."
+  },
+  {
+    "id": "4275aa742452",
+    "question": "geeft les (lesgeven)",
+    "answer": "teaches",
+    "example": "Hij geeft les.",
+    "exampleTranslation": "He teaches."
+  },
+  {
+    "id": "4b4aa052a1bd",
+    "question": "dagen (de dag)",
+    "answer": "days",
+    "example": "Drie dagen per week.",
+    "exampleTranslation": "Three days per week."
+  },
+  {
+    "id": "1a2912b3e258",
+    "question": "drie",
+    "answer": "three",
+    "example": "Ik heb drie boeken.",
+    "exampleTranslation": "I have three books."
+  },
+  {
+    "id": "08eb53510637",
+    "question": "we",
+    "answer": "we",
+    "example": "We beginnen nu.",
+    "exampleTranslation": "We begin now."
+  },
+  {
+    "id": "fa3dd1b8c486",
+    "question": "beginnen (beginnen)",
+    "answer": "begin / start",
+    "example": "We beginnen met de les.",
+    "exampleTranslation": "We begin with the lesson."
+  },
+  {
+    "id": "e3bf436dc9d2",
+    "question": "met",
+    "answer": "with",
+    "example": "Koffie met melk.",
+    "exampleTranslation": "Coffee with milk."
+  },
+  {
+    "id": "4706243f2b6e",
+    "question": "kennismaken",
+    "answer": "get to know",
+    "example": "We gaan kennismaken.",
+    "exampleTranslation": "We are going to get to know each other."
+  },
+  {
+    "id": "92f6e2ce7e0e",
+    "question": "wie",
+    "answer": "who",
+    "example": "Wie ben jij?",
+    "exampleTranslation": "Who are you?"
+  },
+  {
+    "id": "ea4c3bc41a96",
+    "question": "jij",
+    "answer": "you",
+    "example": "Jij bent mijn vriend.",
+    "exampleTranslation": "You are my friend."
+  },
+  {
+    "id": "3f04e760c0dd",
+    "question": "wat",
+    "answer": "what",
+    "example": "Wat is dat?",
+    "exampleTranslation": "What is that?"
+  },
+  {
+    "id": "27e472f84b1c",
+    "question": "jouw",
+    "answer": "your (singular)",
+    "example": "Wat is jouw naam?",
+    "exampleTranslation": "What is your name?"
+  },
+  {
+    "id": "4575006f12bb",
+    "question": "de naam",
+    "answer": "name",
+    "example": "Mijn naam is Jan.",
+    "exampleTranslation": "My name is Jan."
+  },
+  {
+    "id": "ec1b24747c65",
+    "question": "mijn",
+    "answer": "my",
+    "example": "Dit is mijn boek.",
+    "exampleTranslation": "This is my book."
+  },
+  {
+    "id": "5ae491784d69",
+    "question": "dag",
+    "answer": "day",
+    "example": "Het is een mooie dag.",
+    "exampleTranslation": "It is a beautiful day."
+  },
+  {
+    "id": "3e41634bf2c5",
+    "question": "je",
+    "answer": "your (singular)",
+    "example": "Wat is je naam?",
+    "exampleTranslation": "What is your name?"
+  },
+  {
+    "id": "29c6fed61da2",
+    "question": "de voornaam",
+    "answer": "first name",
+    "example": "Wat is je voornaam?",
+    "exampleTranslation": "What is your first name?"
+  },
+  {
+    "id": "b6e1708a37fe",
+    "question": "de achternaam",
+    "answer": "surname",
+    "example": "Mijn achternaam is Jansen.",
+    "exampleTranslation": "My surname is Jansen."
+  },
+  {
+    "id": "92fcadb57830",
+    "question": "uit",
+    "answer": "from",
+    "example": "Ik kom uit Nederland.",
+    "exampleTranslation": "I come from the Netherlands."
+  },
+  {
+    "id": "07d234669ee5",
+    "question": "welk",
+    "answer": "which",
+    "example": "Welk boek lees je?",
+    "exampleTranslation": "Which book are you reading?"
+  },
+  {
+    "id": "306830bf1530",
+    "question": "het land",
+    "answer": "country",
+    "example": "Nederland is een land.",
+    "exampleTranslation": "The Netherlands is a country."
+  },
+  {
+    "id": "01be59fd6e60",
+    "question": "Engeland",
+    "answer": "England",
+    "example": "Ik kom uit Engeland.",
+    "exampleTranslation": "I come from England."
+  },
+  {
+    "id": "12b34909e2ca",
+    "question": "kom (komen)",
+    "answer": "come",
+    "example": "Ik kom morgen.",
+    "exampleTranslation": "I come tomorrow."
+  },
+  {
+    "id": "4a1d3dec70dc",
+    "question": "de buurman",
+    "answer": "neighbour",
+    "example": "Mijn buurman is aardig.",
+    "exampleTranslation": "My neighbour is nice."
+  },
+  {
+    "id": "ceb27a16eab8",
+    "question": "van",
+    "answer": "of",
+    "example": "Het boek van Jan.",
+    "exampleTranslation": "Jan's book."
+  },
+  {
+    "id": "c667b164e6cb",
+    "question": "hoe",
+    "answer": "how (what)",
+    "example": "Hoe gaat het?",
+    "exampleTranslation": "How are you?"
+  },
+  {
+    "id": "27cc80576873",
+    "question": "hoe heet jij?",
+    "answer": "what's your name?",
+    "example": "Hoe heet jij?",
+    "exampleTranslation": "What's your name?"
+  },
+  {
+    "id": "eff78c099c56",
+    "question": "heet (heten)",
+    "answer": "is called",
+    "example": "Ik heet Anna.",
+    "exampleTranslation": "I am called Anna."
+  },
+  {
+    "id": "a6966bb497ee",
+    "question": "waar … vandaan",
+    "answer": "where … from",
+    "example": "Waar kom je vandaan?",
+    "exampleTranslation": "Where do you come from?"
+  },
+  {
+    "id": "d1d49deb1587",
+    "question": "waar",
+    "answer": "where",
+    "example": "Waar woon je?",
+    "exampleTranslation": "Where do you live?"
+  },
+  {
+    "id": "099f67dac7d9",
+    "question": "China",
+    "answer": "China",
+    "example": "Ik kom uit China.",
+    "exampleTranslation": "I come from China."
+  },
+  {
+    "id": "ce7edfb91abc",
+    "question": "woon (wonen)",
+    "answer": "live",
+    "example": "Ik woon in Amsterdam.",
+    "exampleTranslation": "I live in Amsterdam."
+  },
+  {
+    "id": "2c05e63f82d4",
+    "question": "nu",
+    "answer": "now",
+    "example": "We beginnen nu.",
+    "exampleTranslation": "We begin now."
+  },
+  {
+    "id": "060075be359f",
+    "question": "het adres",
+    "answer": "address",
+    "example": "Wat is je adres?",
+    "exampleTranslation": "What is your address?"
+  },
+  {
+    "id": "6bf30333deca",
+    "question": "het nummer",
+    "answer": "number",
+    "example": "Wat is je nummer?",
+    "exampleTranslation": "What is your number?"
+  },
+  {
+    "id": "14f145c077be",
+    "question": "het antwoord",
+    "answer": "answer",
+    "example": "Wat is het antwoord?",
+    "exampleTranslation": "What is the answer?"
+  },
+  {
+    "id": "0586e4c9eb95",
+    "question": "nee",
+    "answer": "no",
+    "example": "Nee, dank je.",
+    "exampleTranslation": "No, thank you."
+  },
+  {
+    "id": "b9e3a40658a7",
+    "question": "de postcode",
+    "answer": "postal code",
+    "example": "Wat is je postcode?",
+    "exampleTranslation": "What is your postal code?"
+  },
+  {
+    "id": "ed28a4704b19",
+    "question": "u",
+    "answer": "you",
+    "example": "Hoe heet u?",
+    "exampleTranslation": "What is your name? (formal)"
+  },
+  {
+    "id": "0a0c6bd76055",
+    "question": "mevrouw",
+    "answer": "Ms / Mrs",
+    "example": "Goedemorgen mevrouw.",
+    "exampleTranslation": "Good morning Ms."
+  },
+  {
+    "id": "a3b7a7c64b04",
+    "question": "woont (wonen)",
+    "answer": "live",
+    "example": "Hij woont hier.",
+    "exampleTranslation": "He lives here."
+  },
+  {
+    "id": "b38804c32b05",
+    "question": "ook",
+    "answer": "also",
+    "example": "Ik ook.",
+    "exampleTranslation": "Me too."
+  },
+  {
+    "id": "ac99379c9903",
+    "question": "in",
+    "answer": "in",
+    "example": "Ik woon in Amsterdam.",
+    "exampleTranslation": "I live in Amsterdam."
+  },
+  {
+    "id": "376fb6b2b374",
+    "question": "zeg (zeggen)",
+    "answer": "call (say)",
+    "example": "Zeg maar Jan.",
+    "exampleTranslation": "Just call me Jan."
+  },
+  {
+    "id": "519e43390209",
+    "question": "maar",
+    "answer": "but (just)",
+    "example": "Maar het is te laat.",
+    "exampleTranslation": "But it is too late."
+  },
+  {
+    "id": "cabaf4580d65",
+    "question": "hoor",
+    "answer": "(for friendliness)",
+    "example": "Doe maar hoor.",
+    "exampleTranslation": "Just do it."
+  },
+  {
+    "id": "a46ba874ea8c",
+    "question": "ja",
+    "answer": "yes",
+    "example": "Ja, graag.",
+    "exampleTranslation": "Yes, please."
+  },
+  {
+    "id": "2c251342ab1c",
+    "question": "hier",
+    "answer": "here",
+    "example": "Ik ben hier.",
+    "exampleTranslation": "I am here."
+  },
+  {
+    "id": "673f5182b444",
+    "question": "al",
+    "answer": "already",
+    "example": "Ik ben al klaar.",
+    "exampleTranslation": "I am already done."
+  },
+  {
+    "id": "38c2ea11f9ea",
+    "question": "twintig",
+    "answer": "twenty",
+    "example": "Ik ben twintig jaar.",
+    "exampleTranslation": "I am twenty years old."
+  },
+  {
+    "id": "e0d0d44dc227",
+    "question": "het jaar",
+    "answer": "year",
+    "example": "Een nieuw jaar.",
+    "exampleTranslation": "A new year."
+  },
+  {
+    "id": "24c47c21806d",
+    "question": "gaan verder (verdergaan)",
+    "answer": "go on (continue)",
+    "example": "We gaan verder met de les.",
+    "exampleTranslation": "We continue with the lesson."
+  },
+  {
+    "id": "03ec85e41b78",
+    "question": "de les",
+    "answer": "lesson",
+    "example": "De les begint nu.",
+    "exampleTranslation": "The lesson starts now."
+  },
+  {
+    "id": "0594083e0257",
+    "question": "heeft (hebben)",
+    "answer": "has",
+    "example": "Hij heeft een boek.",
+    "exampleTranslation": "He has a book."
+  },
+  {
+    "id": "6df7c71d5b47",
+    "question": "iedereen",
+    "answer": "everyone",
+    "example": "Iedereen is hier.",
+    "exampleTranslation": "Everyone is here."
+  },
+  {
+    "id": "24063ddede4f",
+    "question": "het boek",
+    "answer": "book",
+    "example": "Ik lees een boek.",
+    "exampleTranslation": "I read a book."
+  },
+  {
+    "id": "2aae4bfea0e1",
+    "question": "het",
+    "answer": "the",
+    "example": "Het huis is groot.",
+    "exampleTranslation": "The house is big."
+  },
+  {
+    "id": "d7fd2b7c13b6",
+    "question": "de tekst",
+    "answer": "text",
+    "example": "Lees de tekst.",
+    "exampleTranslation": "Read the text."
+  },
+  {
+    "id": "280da5e518be",
+    "question": "één",
+    "answer": "one",
+    "example": "Ik heb één vraag.",
+    "exampleTranslation": "I have one question."
+  },
+  {
+    "id": "3b351f524074",
+    "question": "op",
+    "answer": "on",
+    "example": "Het boek ligt op tafel.",
+    "exampleTranslation": "The book is on the table."
+  },
+  {
+    "id": "854f51cf9063",
+    "question": "de bladzijde",
+    "answer": "page",
+    "example": "Ga naar bladzijde vijf.",
+    "exampleTranslation": "Go to page five."
+  },
+  {
+    "id": "60df0dcb4bf6",
+    "question": "acht",
+    "answer": "eight",
+    "example": "Het is acht uur.",
+    "exampleTranslation": "It is eight o'clock."
+  },
+  {
+    "id": "7e6f9944bdbc",
+    "question": "luisteren",
+    "answer": "listen",
+    "example": "Luisteren naar muziek.",
+    "exampleTranslation": "Listen to music."
+  },
+  {
+    "id": "7804f48715cd",
+    "question": "naar",
+    "answer": "to",
+    "example": "Ik ga naar school.",
+    "exampleTranslation": "I go to school."
+  },
+  {
+    "id": "8edcc1de2837",
+    "question": "lezen",
+    "answer": "read",
+    "example": "Ik lees een boek.",
+    "exampleTranslation": "I read a book."
+  },
+  {
+    "id": "7e5b946e1bac",
+    "question": "stoppen (stoppen)",
+    "answer": "stop",
+    "example": "Stop hier.",
+    "exampleTranslation": "Stop here."
+  },
+  {
+    "id": "7e5d2ff4ee54",
+    "question": "even",
+    "answer": "for a moment",
+    "example": "Wacht even.",
+    "exampleTranslation": "Wait a moment."
+  },
+  {
+    "id": "d43cb65ad003",
+    "question": "het is",
+    "answer": "it is",
+    "example": "Het is mooi weer.",
+    "exampleTranslation": "It is nice weather."
+  },
+  {
+    "id": "77b45a0bfc4e",
+    "question": "de pauze",
+    "answer": "break",
+    "example": "We nemen een pauze.",
+    "exampleTranslation": "We take a break."
+  },
+  {
+    "id": "79468fed813c",
+    "question": "tot straks",
+    "answer": "see you later",
+    "example": "Tot straks!",
+    "exampleTranslation": "See you later!"
+  },
+  {
+    "id": "555f7ef9151a",
+    "question": "straks",
+    "answer": "soon / later",
+    "example": "Ik kom straks.",
+    "exampleTranslation": "I will come later."
+  }
+]

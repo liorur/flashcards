@@ -1,0 +1,261 @@
+[
+  {
+    "id": "c63e88030a34",
+    "question": "1",
+    "answer": "één",
+    "example": "Ik heb één broer.",
+    "exampleTranslation": "I have one brother."
+  },
+  {
+    "id": "69cbb596ad13",
+    "question": "2",
+    "answer": "twee",
+    "example": "Twee koffie, alstublieft.",
+    "exampleTranslation": "Two coffees, please."
+  },
+  {
+    "id": "4473d0d496f4",
+    "question": "3",
+    "answer": "drie",
+    "example": "We hebben drie kinderen.",
+    "exampleTranslation": "We have three children."
+  },
+  {
+    "id": "48c470f68f11",
+    "question": "4",
+    "answer": "vier",
+    "example": "De tafel heeft vier stoelen.",
+    "exampleTranslation": "The table has four chairs."
+  },
+  {
+    "id": "f601674e1b7e",
+    "question": "5",
+    "answer": "vijf",
+    "example": "Het is vijf uur.",
+    "exampleTranslation": "It is five o'clock."
+  },
+  {
+    "id": "733760766c87",
+    "question": "6",
+    "answer": "zes",
+    "example": "Ik ben zes jaar oud.",
+    "exampleTranslation": "I am six years old."
+  },
+  {
+    "id": "e9319d3972a3",
+    "question": "7",
+    "answer": "zeven",
+    "example": "De winkel opent om zeven uur.",
+    "exampleTranslation": "The store opens at seven o'clock."
+  },
+  {
+    "id": "1159634a287d",
+    "question": "8",
+    "answer": "acht",
+    "example": "We beginnen om acht uur.",
+    "exampleTranslation": "We start at eight o'clock."
+  },
+  {
+    "id": "c1b8533051ea",
+    "question": "9",
+    "answer": "negen",
+    "example": "Het nummer is negen.",
+    "exampleTranslation": "The number is nine."
+  },
+  {
+    "id": "42638e55528b",
+    "question": "10",
+    "answer": "tien",
+    "example": "Ik heb tien vingers.",
+    "exampleTranslation": "I have ten fingers."
+  },
+  {
+    "id": "dfd10d94a437",
+    "question": "11",
+    "answer": "elf",
+    "example": "Het is elf uur 's ochtends.",
+    "exampleTranslation": "It is eleven o'clock in the morning."
+  },
+  {
+    "id": "2f830515e29b",
+    "question": "12",
+    "answer": "twaalf",
+    "example": "Er zijn twaalf maanden.",
+    "exampleTranslation": "There are twelve months."
+  },
+  {
+    "id": "ee514d90bbd4",
+    "question": "13",
+    "answer": "dertien",
+    "example": "Ik ben dertien jaar oud.",
+    "exampleTranslation": "I am thirteen years old."
+  },
+  {
+    "id": "e1ab78786b75",
+    "question": "14",
+    "answer": "veertien",
+    "example": "Veertien dagen is twee weken.",
+    "exampleTranslation": "Fourteen days is two weeks."
+  },
+  {
+    "id": "d74c009137eb",
+    "question": "15",
+    "answer": "vijftien",
+    "example": "De les duurt vijftien minuten.",
+    "exampleTranslation": "The lesson lasts fifteen minutes."
+  },
+  {
+    "id": "2dbd625f5b00",
+    "question": "16",
+    "answer": "zestien",
+    "example": "Ze is zestien jaar.",
+    "exampleTranslation": "She is sixteen years old."
+  },
+  {
+    "id": "66b7e56a7052",
+    "question": "17",
+    "answer": "zeventien",
+    "example": "Hij woont op nummer zeventien.",
+    "exampleTranslation": "He lives at number seventeen."
+  },
+  {
+    "id": "82ae9ee3d479",
+    "question": "18",
+    "answer": "achttien",
+    "example": "Je bent achttien jaar oud.",
+    "exampleTranslation": "You are eighteen years old."
+  },
+  {
+    "id": "fe2223e20554",
+    "question": "19",
+    "answer": "negentien",
+    "example": "Het kost negentien euro.",
+    "exampleTranslation": "It costs nineteen euros."
+  },
+  {
+    "id": "b3cb9c7e6670",
+    "question": "20",
+    "answer": "twintig",
+    "example": "Ik ben twintig jaar.",
+    "exampleTranslation": "I am twenty years old."
+  },
+  {
+    "id": "eb8d3e502447",
+    "question": "30",
+    "answer": "dertig",
+    "example": "De cursus duurt dertig dagen.",
+    "exampleTranslation": "The course lasts thirty days."
+  },
+  {
+    "id": "a4571ced904a",
+    "question": "40",
+    "answer": "veertig",
+    "example": "Hij is veertig jaar oud.",
+    "exampleTranslation": "He is forty years old."
+  },
+  {
+    "id": "048181f7269c",
+    "question": "50",
+    "answer": "vijftig",
+    "example": "Het kost vijftig euro.",
+    "exampleTranslation": "It costs fifty euros."
+  },
+  {
+    "id": "1a826067a2d0",
+    "question": "60",
+    "answer": "zestig",
+    "example": "Mijn opa is zestig jaar.",
+    "exampleTranslation": "My grandfather is sixty years old."
+  },
+  {
+    "id": "38136779b337",
+    "question": "70",
+    "answer": "zeventig",
+    "example": "De snelheid is zeventig kilometer.",
+    "exampleTranslation": "The speed is seventy kilometers."
+  },
+  {
+    "id": "31dbb05329bd",
+    "question": "80",
+    "answer": "tachtig",
+    "example": "Het boek heeft tachtig bladzijden.",
+    "exampleTranslation": "The book has eighty pages."
+  },
+  {
+    "id": "26187a83b05e",
+    "question": "90",
+    "answer": "negentig",
+    "example": "De prijs is negentig euro.",
+    "exampleTranslation": "The price is ninety euros."
+  },
+  {
+    "id": "e9e4f4615836",
+    "question": "100",
+    "answer": "honderd",
+    "example": "Een eeuw is honderd jaar.",
+    "exampleTranslation": "A century is one hundred years."
+  },
+  {
+    "id": "95ccd9212af0",
+    "question": "200",
+    "answer": "tweehonderd",
+    "example": "Het huis kost tweehonderd duizend euro.",
+    "exampleTranslation": "The house costs two hundred thousand euros."
+  },
+  {
+    "id": "3fadb537cb8c",
+    "question": "300",
+    "answer": "driehonderd",
+    "example": "Er zijn driehonderd studenten.",
+    "exampleTranslation": "There are three hundred students."
+  },
+  {
+    "id": "a3cc56d4da08",
+    "question": "400",
+    "answer": "vierhonderd",
+    "example": "De afstand is vierhonderd meter.",
+    "exampleTranslation": "The distance is four hundred meters."
+  },
+  {
+    "id": "651e13fdb14e",
+    "question": "500",
+    "answer": "vijfhonderd",
+    "example": "We hebben vijfhonderd boeken.",
+    "exampleTranslation": "We have five hundred books."
+  },
+  {
+    "id": "75c1787a9fdc",
+    "question": "600",
+    "answer": "zeshonderd",
+    "example": "Het nummer is zeshonderd.",
+    "exampleTranslation": "The number is six hundred."
+  },
+  {
+    "id": "821978212f0d",
+    "question": "700",
+    "answer": "zevenhonderd",
+    "example": "De school heeft zevenhonderd leerlingen.",
+    "exampleTranslation": "The school has seven hundred students."
+  },
+  {
+    "id": "d2384a9a22fd",
+    "question": "800",
+    "answer": "achthonderd",
+    "example": "Het is achthonderd kilometer.",
+    "exampleTranslation": "It is eight hundred kilometers."
+  },
+  {
+    "id": "8987db92049e",
+    "question": "900",
+    "answer": "negenhonderd",
+    "example": "Het jaar negenhonderd.",
+    "exampleTranslation": "The year nine hundred."
+  },
+  {
+    "id": "8ec71e65d947",
+    "question": "1000",
+    "answer": "duizend",
+    "example": "Duizend dank!",
+    "exampleTranslation": "Thanks a lot! (lit. thousand thanks)"
+  }
+]

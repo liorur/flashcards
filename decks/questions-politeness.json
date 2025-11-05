@@ -1,0 +1,198 @@
+[
+  {
+    "id": "92f6e2ce7e0e",
+    "question": "wie",
+    "answer": "who",
+    "example": "Wie is dat?",
+    "exampleTranslation": "Who is that?"
+  },
+  {
+    "id": "3f04e760c0dd",
+    "question": "wat",
+    "answer": "what",
+    "example": "Wat is dit?",
+    "exampleTranslation": "What is this?"
+  },
+  {
+    "id": "d1d49deb1587",
+    "question": "waar",
+    "answer": "where",
+    "example": "Waar woon je?",
+    "exampleTranslation": "Where do you live?"
+  },
+  {
+    "id": "16c9f94dd565",
+    "question": "wanneer",
+    "answer": "when",
+    "example": "Wanneer kom je?",
+    "exampleTranslation": "When are you coming?"
+  },
+  {
+    "id": "a0257f7fc114",
+    "question": "waarom",
+    "answer": "why",
+    "example": "Waarom niet?",
+    "exampleTranslation": "Why not?"
+  },
+  {
+    "id": "29a8ed477a04",
+    "question": "hoe",
+    "answer": "how",
+    "example": "Hoe gaat het?",
+    "exampleTranslation": "How are you?"
+  },
+  {
+    "id": "0c72d40763ae",
+    "question": "welke",
+    "answer": "which / what",
+    "example": "Welke kleur wil je?",
+    "exampleTranslation": "Which color do you want?"
+  },
+  {
+    "id": "4de20088b5c2",
+    "question": "hoeveel",
+    "answer": "how much / how many",
+    "example": "Hoeveel kost dit?",
+    "exampleTranslation": "How much does this cost?"
+  },
+  {
+    "id": "3a2ebccb3a4c",
+    "question": "wie is",
+    "answer": "who is",
+    "example": "Wie is je docent?",
+    "exampleTranslation": "Who is your teacher?"
+  },
+  {
+    "id": "3c8e66939b47",
+    "question": "wat is",
+    "answer": "what is",
+    "example": "Wat is je naam?",
+    "exampleTranslation": "What is your name?"
+  },
+  {
+    "id": "9f07b4e507fa",
+    "question": "waar is",
+    "answer": "where is",
+    "example": "Waar is de winkel?",
+    "exampleTranslation": "Where is the store?"
+  },
+  {
+    "id": "509915733d5a",
+    "question": "hoe heet",
+    "answer": "what is ... called / what is ... named",
+    "example": "Hoe heet je?",
+    "exampleTranslation": "What's your name?"
+  },
+  {
+    "id": "3c80b98bb1d0",
+    "question": "alstublieft",
+    "answer": "please (formal)",
+    "example": "Twee koffie, alstublieft.",
+    "exampleTranslation": "Two coffees, please."
+  },
+  {
+    "id": "3b70649f6c4d",
+    "question": "alsjeblieft",
+    "answer": "please (informal)",
+    "example": "Geef me het boek, alsjeblieft.",
+    "exampleTranslation": "Give me the book, please."
+  },
+  {
+    "id": "a4ff8380988e",
+    "question": "dank je",
+    "answer": "thank you (informal)",
+    "example": "Dank je voor je hulp.",
+    "exampleTranslation": "Thank you for your help."
+  },
+  {
+    "id": "65a7e8d96b2e",
+    "question": "dank u",
+    "answer": "thank you (formal)",
+    "example": "Dank u wel, meneer.",
+    "exampleTranslation": "Thank you, sir."
+  },
+  {
+    "id": "f0a52b38d8e6",
+    "question": "bedankt",
+    "answer": "thanks",
+    "example": "Bedankt voor het cadeau!",
+    "exampleTranslation": "Thanks for the gift!"
+  },
+  {
+    "id": "a09246eea7c1",
+    "question": "dank je wel",
+    "answer": "thank you very much (informal)",
+    "example": "Dank je wel voor alles.",
+    "exampleTranslation": "Thank you very much for everything."
+  },
+  {
+    "id": "8b4731e5fd8e",
+    "question": "dank u wel",
+    "answer": "thank you very much (formal)",
+    "example": "Dank u wel voor uw tijd.",
+    "exampleTranslation": "Thank you very much for your time."
+  },
+  {
+    "id": "61df7d02e6b4",
+    "question": "graag gedaan",
+    "answer": "you're welcome",
+    "example": "Bedankt! - Graag gedaan.",
+    "exampleTranslation": "Thanks! - You're welcome."
+  },
+  {
+    "id": "1855038ff3a1",
+    "question": "sorry",
+    "answer": "sorry",
+    "example": "Sorry, ik ben te laat.",
+    "exampleTranslation": "Sorry, I'm late."
+  },
+  {
+    "id": "4afe9146df6b",
+    "question": "pardon",
+    "answer": "pardon / excuse me",
+    "example": "Pardon, mag ik erlangs?",
+    "exampleTranslation": "Excuse me, may I pass?"
+  },
+  {
+    "id": "0e62b2e6cfca",
+    "question": "excuseer",
+    "answer": "excuse (me)",
+    "example": "Excuseer me, waar is het toilet?",
+    "exampleTranslation": "Excuse me, where is the toilet?"
+  },
+  {
+    "id": "591a00147007",
+    "question": "het spijt me",
+    "answer": "I'm sorry",
+    "example": "Het spijt me, dat was mijn fout.",
+    "exampleTranslation": "I'm sorry, that was my mistake."
+  },
+  {
+    "id": "c33acc7fa647",
+    "question": "geen probleem",
+    "answer": "no problem",
+    "example": "Sorry! - Geen probleem.",
+    "exampleTranslation": "Sorry! - No problem."
+  },
+  {
+    "id": "65c004cbbdb8",
+    "question": "tot ziens",
+    "answer": "goodbye / see you",
+    "example": "Tot ziens! Tot morgen!",
+    "exampleTranslation": "Goodbye! See you tomorrow!"
+  },
+  {
+    "id": "ad34331dda60",
+    "question": "dag",
+    "answer": "bye / goodbye",
+    "example": "Dag! Tot later!",
+    "exampleTranslation": "Bye! See you later!"
+  },
+  {
+    "id": "f9716d1c5753",
+    "question": "doei",
+    "answer": "bye (informal)",
+    "example": "Doei! Tot snel!",
+    "exampleTranslation": "Bye! See you soon!"
+  }
+]

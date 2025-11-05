@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcards App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Flashcards</h1>
+            <div id="userDisplay" class="user-display" style="display: none;">
+                <span id="currentUser"></span>
+                <div class="user-actions">
+                    <button id="changeUser" class="btn-change-user">Change User</button>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <!-- User Selection View -->
+            <div id="userMode" class="view active">
+                <div class="user-container">
+                    <h2>Welcome!</h2>
+                    <p>Enter your name to get started</p>
+                    <div class="user-input-form">
+                        <input type="text" id="usernameInput" placeholder="Your name" />
+                        <button id="loginBtn" class="btn btn-primary">Start Learning</button>
+                    </div>
+                    <div id="existingUsers" class="existing-users"></div>
+                </div>
+            </div>
+
+            <!-- Decks View -->
+            <div id="decksMode" class="view active">
+                <div class="decks-container">
+                    <h2>My Decks</h2>
+
+                    <div class="decks-list">
+                        <div id="decksList"></div>
+                    </div>
+
+                    <div style="text-align: center; margin-top: 2rem;">
+                        <button id="resetAllProgress" class="btn btn-danger">Reset All Progress</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Study Mode -->
+            <div id="studyMode" class="view">
+                <div class="deck-header">
+                    <button id="backToDecks" class="btn-back">← Back to Decks</button>
+                    <h2 id="currentDeckName"></h2>
+                </div>
+
+                <div class="card-container">
+                    <div class="card" id="flashcard">
+                        <div class="card-content">
+                            <div class="card-front">
+                                <p id="questionText">Select a deck to begin</p>
+                            </div>
+                            <div class="card-back">
+                                <p id="answerText"></p>
+                                <div id="exampleText" class="example-text"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="controls">
+                    <button id="flipBtn" class="btn btn-primary">Flip Card</button>
+                    <div id="responseButtons" class="response-buttons" style="display: none;">
+                        <button id="knewItBtn" class="btn btn-knew">👍 I knew it</button>
+                        <button id="didntKnowBtn" class="btn btn-didnt-know">👎 Didn't know</button>
+                    </div>
+                    <div class="navigation">
+                        <button id="prevBtn" class="btn btn-secondary">Previous</button>
+                        <span id="cardCounter">0 / 0</span>
+                        <button id="nextBtn" class="btn btn-secondary">Next</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Manage Mode -->
+            <div id="manageMode" class="view">
+                <div class="manage-container">
+                    <div class="deck-header">
+                        <button id="backToDecksManage" class="btn-back">← Back to Decks</button>
+                        <h2 id="manageDeckName"></h2>
+                    </div>
+
+                    <div class="add-card-form">
+                        <h3>Add New Card</h3>
+                        <textarea id="newQuestion" placeholder="Enter question" rows="3"></textarea>
+                        <textarea id="newAnswer" placeholder="Enter answer" rows="3"></textarea>
+                        <button id="addCardBtn" class="btn btn-success">Add Card</button>
+                    </div>
+
+                    <div class="cards-list">
+                        <h3>All Cards</h3>
+                        <div id="cardsList"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <nav class="bottom-nav">
+            <button id="navDecks" class="nav-btn active">
+                <span>Decks</span>
+            </button>
+        </nav>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

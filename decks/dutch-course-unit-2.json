@@ -1,0 +1,534 @@
+[
+  {
+    "id": "000000d44a1o",
+    "question": "zitten",
+    "answer": "are sitting",
+    "example": "Wij zitten in de kantine.",
+    "exampleTranslation": "We are sitting in the canteen."
+  },
+  {
+    "id": "0000007hdt7x",
+    "question": "de kantine",
+    "answer": "canteen",
+    "example": "De kantine is heel groot.",
+    "exampleTranslation": "The canteen is very big."
+  },
+  {
+    "id": "000000deogcy",
+    "question": "deze",
+    "answer": "this",
+    "example": "Deze koffie is lekker.",
+    "exampleTranslation": "This coffee is delicious."
+  },
+  {
+    "id": "000000031s9p",
+    "question": "de plaats",
+    "answer": "seat / place",
+    "example": "Is deze plaats vrij?",
+    "exampleTranslation": "Is this seat free?"
+  },
+  {
+    "id": "00000029c6qz",
+    "question": "vrij",
+    "answer": "free",
+    "example": "Ja, de plaats is vrij.",
+    "exampleTranslation": "Yes, the seat is free."
+  },
+  {
+    "id": "000000ow0c9u",
+    "question": "ja hoor",
+    "answer": "yes",
+    "example": "Ja hoor, ga zitten!",
+    "exampleTranslation": "Yes, sit down!"
+  },
+  {
+    "id": "000000unhow6",
+    "question": "zo",
+    "answer": "okay / right",
+    "example": "Zo, dat is klaar.",
+    "exampleTranslation": "Right, that's done."
+  },
+  {
+    "id": "000000rd35rk",
+    "question": "een",
+    "answer": "a(n)",
+    "example": "Ik wil een kopje koffie.",
+    "exampleTranslation": "I want a cup of coffee."
+  },
+  {
+    "id": "000000ecworv",
+    "question": "lekker",
+    "answer": "nice / delicious",
+    "example": "De koffie is heel lekker.",
+    "exampleTranslation": "The coffee is very delicious."
+  },
+  {
+    "id": "000000ctwwu8",
+    "question": "het kopje",
+    "answer": "cup",
+    "example": "Het kopje is nog vol.",
+    "exampleTranslation": "The cup is still full."
+  },
+  {
+    "id": "000000tdrzvb",
+    "question": "de koffie",
+    "answer": "coffee",
+    "example": "De koffie is nog warm.",
+    "exampleTranslation": "The coffee is still warm."
+  },
+  {
+    "id": "000000a9ik0y",
+    "question": "al lang",
+    "answer": "for a long time",
+    "example": "Ik werk hier al lang.",
+    "exampleTranslation": "I've been working here for a long time."
+  },
+  {
+    "id": "000000k9d8sm",
+    "question": "pas",
+    "answer": "only",
+    "example": "Ik werk hier pas twee weken.",
+    "exampleTranslation": "I've only been working here for two weeks."
+  },
+  {
+    "id": "0000001qwx7s",
+    "question": "of",
+    "answer": "or",
+    "example": "Wil je koffie of thee?",
+    "exampleTranslation": "Do you want coffee or tea?"
+  },
+  {
+    "id": "000000m9j6k8",
+    "question": "welke",
+    "answer": "what",
+    "example": "Welke dag is het vandaag?",
+    "exampleTranslation": "What day is it today?"
+  },
+  {
+    "id": "000000zag5kh",
+    "question": "eigenlijk",
+    "answer": "actually / really",
+    "example": "Wat doe je eigenlijk hier?",
+    "exampleTranslation": "What are you actually doing here?"
+  },
+  {
+    "id": "0000004shved",
+    "question": "vandaag",
+    "answer": "today",
+    "example": "Vandaag is het donderdag.",
+    "exampleTranslation": "Today is Thursday."
+  },
+  {
+    "id": "00000015oxlm",
+    "question": "donderdag",
+    "answer": "Thursday",
+    "example": "Op donderdag heb ik vrij.",
+    "exampleTranslation": "I'm free on Thursday."
+  },
+  {
+    "id": "000000b4d4rm",
+    "question": "augustus",
+    "answer": "August",
+    "example": "Mijn verjaardag is in augustus.",
+    "exampleTranslation": "My birthday is in August."
+  },
+  {
+    "id": "000000f45ghr",
+    "question": "morgen",
+    "answer": "tomorrow",
+    "example": "Morgen ben ik jarig.",
+    "exampleTranslation": "Tomorrow is my birthday."
+  },
+  {
+    "id": "000000khv69u",
+    "question": "ik ben jarig",
+    "answer": "it's my birthday",
+    "example": "Morgen ben ik jarig!",
+    "exampleTranslation": "Tomorrow is my birthday!"
+  },
+  {
+    "id": "000000y902kk",
+    "question": "wat leuk",
+    "answer": "how nice",
+    "example": "Wat leuk dat je komt!",
+    "exampleTranslation": "How nice that you're coming!"
+  },
+  {
+    "id": "000000p3pflo",
+    "question": "december",
+    "answer": "December",
+    "example": "In december is het winter.",
+    "exampleTranslation": "In December it's winter."
+  },
+  {
+    "id": "000000i9oicl",
+    "question": "dus",
+    "answer": "so / therefore",
+    "example": "Het is winter, dus het is koud.",
+    "exampleTranslation": "It's winter, so it's cold."
+  },
+  {
+    "id": "000000m2vfcz",
+    "question": "de winter",
+    "answer": "winter",
+    "example": "De winter is mijn favoriete seizoen.",
+    "exampleTranslation": "Winter is my favorite season."
+  },
+  {
+    "id": "000000023e9h",
+    "question": "krijg",
+    "answer": "get / receive",
+    "example": "Ik krijg morgen bezoek.",
+    "exampleTranslation": "I'm getting visitors tomorrow."
+  },
+  {
+    "id": "000000z0y306",
+    "question": "nog",
+    "answer": "any",
+    "example": "Heb je nog vragen?",
+    "exampleTranslation": "Do you have any questions?"
+  },
+  {
+    "id": "000000niu10g",
+    "question": "het bezoek",
+    "answer": "visit / visitors",
+    "example": "We krijgen morgen bezoek.",
+    "exampleTranslation": "We're getting visitors tomorrow."
+  },
+  {
+    "id": "000000b1hhu7",
+    "question": "de broer",
+    "answer": "brother",
+    "example": "Mijn broer komt op bezoek.",
+    "exampleTranslation": "My brother is coming to visit."
+  },
+  {
+    "id": "000000pf351o",
+    "question": "jonger",
+    "answer": "younger",
+    "example": "Mijn broer is jonger dan ik.",
+    "exampleTranslation": "My brother is younger than me."
+  },
+  {
+    "id": "0000003uh7au",
+    "question": "maar",
+    "answer": "but",
+    "example": "Ik ben ouder, maar hij is langer.",
+    "exampleTranslation": "I'm older, but he's taller."
+  },
+  {
+    "id": "000000jvn0j3",
+    "question": "wel",
+    "answer": "certainly",
+    "example": "Hij is wel heel aardig.",
+    "exampleTranslation": "He certainly is very nice."
+  },
+  {
+    "id": "0000001r4r8l",
+    "question": "langer",
+    "answer": "taller",
+    "example": "Mijn broer is langer dan ik.",
+    "exampleTranslation": "My brother is taller than me."
+  },
+  {
+    "id": "000000ly9ptm",
+    "question": "nog meer",
+    "answer": "any more",
+    "example": "Heb je nog meer broers?",
+    "exampleTranslation": "Do you have any more brothers?"
+  },
+  {
+    "id": "000000r0fync",
+    "question": "broers",
+    "answer": "brothers",
+    "example": "Ik heb twee broers.",
+    "exampleTranslation": "I have two brothers."
+  },
+  {
+    "id": "0000008el65l",
+    "question": "zussen",
+    "answer": "sisters",
+    "example": "Heb je ook zussen?",
+    "exampleTranslation": "Do you also have sisters?"
+  },
+  {
+    "id": "0000005a4dfr",
+    "question": "de zus",
+    "answer": "sister",
+    "example": "Mijn zus woont in Amsterdam.",
+    "exampleTranslation": "My sister lives in Amsterdam."
+  },
+  {
+    "id": "000000m5eat6",
+    "question": "nog",
+    "answer": "as well",
+    "example": "Heb je nog vragen?",
+    "exampleTranslation": "Do you have any questions?"
+  },
+  {
+    "id": "000000fsdsgs",
+    "question": "kijk",
+    "answer": "look",
+    "example": "Kijk, dit is mijn familie.",
+    "exampleTranslation": "Look, this is my family."
+  },
+  {
+    "id": "000000kz6lo9",
+    "question": "de foto",
+    "answer": "photo",
+    "example": "Dit is een foto van mijn ouders.",
+    "exampleTranslation": "This is a photo of my parents."
+  },
+  {
+    "id": "000000kiis6j",
+    "question": "goh",
+    "answer": "oh",
+    "example": "Goh, wat een mooie foto!",
+    "exampleTranslation": "Oh, what a beautiful photo!"
+  },
+  {
+    "id": "000000bpflma",
+    "question": "heel",
+    "answer": "very",
+    "example": "Ze zijn heel aardig.",
+    "exampleTranslation": "They are very nice."
+  },
+  {
+    "id": "000000e8gou8",
+    "question": "ander",
+    "answer": "different / other",
+    "example": "Mijn zus heeft een ander type haar.",
+    "exampleTranslation": "My sister has a different type of hair."
+  },
+  {
+    "id": "0000004cm4mr",
+    "question": "het type",
+    "answer": "type",
+    "example": "Welk type werk doe je?",
+    "exampleTranslation": "What type of work do you do?"
+  },
+  {
+    "id": "000000xlhbxi",
+    "question": "kort",
+    "answer": "short",
+    "example": "Mijn haar is kort.",
+    "exampleTranslation": "My hair is short."
+  },
+  {
+    "id": "000000j15esr",
+    "question": "blond",
+    "answer": "blonde",
+    "example": "Mijn zus heeft blond haar.",
+    "exampleTranslation": "My sister has blonde hair."
+  },
+  {
+    "id": "000000pja4ff",
+    "question": "het haar",
+    "answer": "hair",
+    "example": "Haar haar is heel lang.",
+    "exampleTranslation": "Her hair is very long."
+  },
+  {
+    "id": "0000009eutk3",
+    "question": "donker",
+    "answer": "dark",
+    "example": "Mijn haar is donker.",
+    "exampleTranslation": "My hair is dark."
+  },
+  {
+    "id": "0000003tkqh8",
+    "question": "de ouders",
+    "answer": "parents",
+    "example": "Mijn ouders wonen in Nederland.",
+    "exampleTranslation": "My parents live in the Netherlands."
+  },
+  {
+    "id": "000000fekb4p",
+    "question": "komen op bezoek",
+    "answer": "pay a visit",
+    "example": "Ze komen morgen op bezoek.",
+    "exampleTranslation": "They're coming to visit tomorrow."
+  },
+  {
+    "id": "000000llytcg",
+    "question": "op dit moment",
+    "answer": "at the moment",
+    "example": "Op dit moment zijn ze op vakantie.",
+    "exampleTranslation": "At the moment they're on holiday."
+  },
+  {
+    "id": "000000ehytnu",
+    "question": "Indonesië",
+    "answer": "Indonesia",
+    "example": "Ze zijn in Indonesië.",
+    "exampleTranslation": "They are in Indonesia."
+  },
+  {
+    "id": "000000xdddy5",
+    "question": "doen",
+    "answer": "are doing",
+    "example": "Wat doen ze daar?",
+    "exampleTranslation": "What are they doing there?"
+  },
+  {
+    "id": "000000qjaf6e",
+    "question": "daar",
+    "answer": "there",
+    "example": "Daar is het heel warm.",
+    "exampleTranslation": "It's very warm there."
+  },
+  {
+    "id": "0000004qjf81",
+    "question": "op vakantie",
+    "answer": "on holiday",
+    "example": "We gaan op vakantie in augustus.",
+    "exampleTranslation": "We're going on holiday in August."
+  },
+  {
+    "id": "000000digkoy",
+    "question": "de vakantie",
+    "answer": "holiday",
+    "example": "De vakantie duurt twee weken.",
+    "exampleTranslation": "The holiday lasts two weeks."
+  },
+  {
+    "id": "000000z0q3td",
+    "question": "de vader",
+    "answer": "father",
+    "example": "Mijn vader werkt voor een groot bedrijf.",
+    "exampleTranslation": "My father works for a large company."
+  },
+  {
+    "id": "000000tjgk47",
+    "question": "voor",
+    "answer": "for",
+    "example": "Dit is voor jou.",
+    "exampleTranslation": "This is for you."
+  },
+  {
+    "id": "0000004qrm7r",
+    "question": "zijn",
+    "answer": "his",
+    "example": "Dit is zijn werk.",
+    "exampleTranslation": "This is his work."
+  },
+  {
+    "id": "0000009ox38d",
+    "question": "het werk",
+    "answer": "work",
+    "example": "Het werk is heel interessant.",
+    "exampleTranslation": "The work is very interesting."
+  },
+  {
+    "id": "000000iw00ab",
+    "question": "het seizoen",
+    "answer": "season",
+    "example": "Welk seizoen vind je het leukst?",
+    "exampleTranslation": "Which season do you like best?"
+  },
+  {
+    "id": "000000m1jcxa",
+    "question": "wanneer",
+    "answer": "when",
+    "example": "Wanneer ben je jarig?",
+    "exampleTranslation": "When is your birthday?"
+  },
+  {
+    "id": "000000uw9g79",
+    "question": "de zomer",
+    "answer": "summer",
+    "example": "In de zomer is het warm.",
+    "exampleTranslation": "In summer it's warm."
+  },
+  {
+    "id": "000000u49gpi",
+    "question": "weet",
+    "answer": "know",
+    "example": "Ik weet het niet.",
+    "exampleTranslation": "I don't know."
+  },
+  {
+    "id": "00000029dr41",
+    "question": "niet",
+    "answer": "not",
+    "example": "Ik kom niet vandaag.",
+    "exampleTranslation": "I'm not coming today."
+  },
+  {
+    "id": "000000jokewb",
+    "question": "vertel",
+    "answer": "tell",
+    "example": "Vertel me over je familie.",
+    "exampleTranslation": "Tell me about your family."
+  },
+  {
+    "id": "000000qms4pk",
+    "question": "eens",
+    "answer": "(usually untranslated)",
+    "example": "Vertel eens over je werk.",
+    "exampleTranslation": "Tell me about your work."
+  },
+  {
+    "id": "000000oqb3q3",
+    "question": "over",
+    "answer": "about",
+    "example": "We praten over de vakantie.",
+    "exampleTranslation": "We're talking about the holiday."
+  },
+  {
+    "id": "000000qf164y",
+    "question": "de familie",
+    "answer": "family",
+    "example": "De hele familie komt morgen.",
+    "exampleTranslation": "The whole family is coming tomorrow."
+  },
+  {
+    "id": "000000u0kijw",
+    "question": "dat",
+    "answer": "that",
+    "example": "Dat is heel leuk!",
+    "exampleTranslation": "That's very nice!"
+  },
+  {
+    "id": "0000006d2oe7",
+    "question": "wil",
+    "answer": "want / would like",
+    "example": "Ik wil graag koffie.",
+    "exampleTranslation": "I would like coffee."
+  },
+  {
+    "id": "000000hdbznq",
+    "question": "laat",
+    "answer": "late",
+    "example": "Het is al laat.",
+    "exampleTranslation": "It's already late."
+  },
+  {
+    "id": "000000egj7ta",
+    "question": "11.00 uur",
+    "answer": "11 o'clock",
+    "example": "We beginnen om 11.00 uur.",
+    "exampleTranslation": "We start at 11 o'clock."
+  },
+  {
+    "id": "000000rl2dt5",
+    "question": "moeten",
+    "answer": "should / have to",
+    "example": "Ik moet nu gaan.",
+    "exampleTranslation": "I have to go now."
+  },
+  {
+    "id": "000000v903rz",
+    "question": "weer",
+    "answer": "again",
+    "example": "Ik moet weer aan het werk.",
+    "exampleTranslation": "I have to go back to work."
+  },
+  {
+    "id": "000000saus7n",
+    "question": "naar",
+    "answer": "to",
+    "example": "Ik ga naar huis.",
+    "exampleTranslation": "I'm going home."
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "dutch-course-unit-1",
+    "name": "Dutch course Unit 1",
+    "file": "decks/dutch-course-unit-1.json"
+  },
+  {
+    "id": "dutch-course-unit-2",
+    "name": "Dutch course Unit 2",
+    "file": "decks/dutch-course-unit-2.json"
+  },
+  {
+    "id": "zijn-hebben",
+    "name": "Zijn Hebben Mijn",
+    "file": "decks/zijn-hebben.json"
+  },
+  {
+    "id": "numbers",
+    "name": "Numbers",
+    "file": "decks/numbers.json"
+  },
+  {
+    "id": "questions-politeness",
+    "name": "Questions & Politeness",
+    "file": "decks/questions-politeness.json"
+  },
+  {
+    "id": "time",
+    "name": "Time",
+    "file": "decks/time.json"
+  }
+]
