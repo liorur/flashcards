@@ -201,6 +201,9 @@ class FlashcardsApp {
                 return await this.loadAllDecksCards();
             }
 
+            // Clear deckProgressMap when loading individual deck
+            this.deckProgressMap = {};
+
             // Load cards (without history)
             const cards = await this.apiCall(`/api/decks/${deck.id}/cards`);
             this.originalCards = cards;
@@ -222,15 +225,22 @@ class FlashcardsApp {
 
             // Load all progress data for all decks
             this.progress = {};
+            this.deckProgressMap = {}; // Track which deck each card belongs to
 
             for (const deck of realDecks) {
                 const cards = await this.apiCall(`/api/decks/${deck.id}/cards`);
                 const deckProgress = await this.apiCall(`/api/progress/${this.currentUser.username}/${deck.id}`);
 
-                // Tag cards with their deck ID and merge progress
+                // Tag cards with their deck ID
                 cards.forEach(card => {
                     card.deckId = deck.id;
                     card.deckName = deck.name;
+
+                    // Map each card's progress keys to its deck
+                    const forwardKey = `${card.id}_forward`;
+                    const reverseKey = `${card.id}_reverse`;
+                    this.deckProgressMap[forwardKey] = deck.id;
+                    this.deckProgressMap[reverseKey] = deck.id;
                 });
 
                 // Merge progress
@@ -270,9 +280,22 @@ class FlashcardsApp {
         try {
             if (!this.currentUser) return;
 
+            // If we're in "All Decks" mode, filter progress to only this deck's entries
+            let progressToSave = this.progress;
+
+            if (this.deckProgressMap && Object.keys(this.deckProgressMap).length > 0) {
+                // Filter progress to only include entries for this specific deck
+                progressToSave = {};
+                for (const [key, value] of Object.entries(this.progress)) {
+                    if (this.deckProgressMap[key] === deckId) {
+                        progressToSave[key] = value;
+                    }
+                }
+            }
+
             await this.apiCall(`/api/progress/${this.currentUser.username}/${deckId}`, {
                 method: 'PUT',
-                body: JSON.stringify({ progress: this.progress })
+                body: JSON.stringify({ progress: progressToSave })
             });
         } catch (error) {
             console.error('Error saving progress:', error);
