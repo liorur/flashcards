@@ -266,8 +266,8 @@
     "exampleTranslation": "The man is tall."
   },
   {
-    "id": "8061ee7adbc7",
-    "question": "het",
+    "id": "903649920b8a",
+    "question": "het (article)",
     "answer": "the (neuter gender)",
     "example": "Het huis is groot.",
     "exampleTranslation": "The house is big."
@@ -278,5 +278,96 @@
     "answer": "a / an",
     "example": "Ik heb een boek.",
     "exampleTranslation": "I have a book."
+  },
+  {
+    "id": "2d264d4fe7ce",
+    "question": "ik (pronoun)",
+    "answer": "I",
+    "example": "Ik woon hier.",
+    "exampleTranslation": "I live here."
+  },
+  {
+    "id": "6fb8de689c7d",
+    "question": "jij (pronoun)",
+    "answer": "you (informal singular)",
+    "example": "Jij bent mijn vriend.",
+    "exampleTranslation": "You are my friend."
+  },
+  {
+    "id": "6c869601bed8",
+    "question": "je (pronoun)",
+    "answer": "you (informal singular)",
+    "example": "Je bent aardig.",
+    "exampleTranslation": "You are nice."
+  },
+  {
+    "id": "e3e3e38a7798",
+    "question": "u (pronoun)",
+    "answer": "you (formal)",
+    "example": "U bent de docent.",
+    "exampleTranslation": "You are the teacher."
+  },
+  {
+    "id": "551be223f18d",
+    "question": "hij (pronoun)",
+    "answer": "he",
+    "example": "Hij woont in Amsterdam.",
+    "exampleTranslation": "He lives in Amsterdam."
+  },
+  {
+    "id": "0e2684ab2809",
+    "question": "zij (pronoun - she)",
+    "answer": "she",
+    "example": "Zij is de docent.",
+    "exampleTranslation": "She is the teacher."
+  },
+  {
+    "id": "4d98fd94212e",
+    "question": "ze (pronoun - she)",
+    "answer": "she",
+    "example": "Ze is thuis.",
+    "exampleTranslation": "She is at home."
+  },
+  {
+    "id": "b4d9bff77910",
+    "question": "het (pronoun)",
+    "answer": "it",
+    "example": "Het is mooi.",
+    "exampleTranslation": "It is beautiful."
+  },
+  {
+    "id": "bdbc449ebb71",
+    "question": "wij (pronoun)",
+    "answer": "we",
+    "example": "Wij wonen hier.",
+    "exampleTranslation": "We live here."
+  },
+  {
+    "id": "f7a3df8210c9",
+    "question": "we (pronoun)",
+    "answer": "we",
+    "example": "We zijn studenten.",
+    "exampleTranslation": "We are students."
+  },
+  {
+    "id": "5b3b9e21de0b",
+    "question": "jullie (pronoun)",
+    "answer": "you (plural)",
+    "example": "Jullie zijn docenten.",
+    "exampleTranslation": "You are teachers."
+  },
+  {
+    "id": "b0129eb3fd53",
+    "question": "zij (pronoun - they)",
+    "answer": "they",
+    "example": "Zij zijn studenten.",
+    "exampleTranslation": "They are students."
+  },
+  {
+    "id": "52c22ff7d774",
+    "question": "ze (pronoun - they)",
+    "answer": "they",
+    "example": "Ze zijn in de klas.",
+    "exampleTranslation": "They are in the classroom."
   }
 ]
