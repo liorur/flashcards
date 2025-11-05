@@ -698,14 +698,12 @@ class FlashcardsApp {
         const card = document.getElementById('flashcard');
         const questionText = document.getElementById('questionText');
         const answerText = document.getElementById('answerText');
-        const counter = document.getElementById('cardCounter');
         const responseButtons = document.getElementById('responseButtons');
         const exampleText = document.getElementById('exampleText');
 
         if (this.flashcards.length === 0) {
             questionText.textContent = 'No flashcards available';
             answerText.textContent = '';
-            counter.textContent = '0 / 0';
             return;
         }
 
@@ -722,7 +720,6 @@ class FlashcardsApp {
             questionText.textContent = currentCard.question;
             answerText.textContent = currentCard.answer;
             exampleText.innerHTML = '';
-            counter.textContent = `${this.currentIndex + 1} / ${this.flashcards.length}`;
 
             // Reset buttons visibility
             responseButtons.style.display = 'none';
