@@ -593,6 +593,18 @@ class FlashcardsApp {
         }
 
         const promises = this.decks.map(async (deck) => {
+            // Handle virtual "All Decks" differently
+            if (deck.id === 'all-decks') {
+                const realDecks = this.decks.filter(d => !d.virtual);
+                let totalCount = 0;
+                for (const realDeck of realDecks) {
+                    const cards = await this.apiCall(`/api/decks/${realDeck.id}/cards`);
+                    totalCount += cards.length;
+                }
+                const stats = await this.calculateDeckStats(deck.id, totalCount);
+                return { deck, count: totalCount, stats };
+            }
+
             // Get original card count (not bidirectional)
             const cards = await this.apiCall(`/api/decks/${deck.id}/cards`);
             const count = cards.length;
