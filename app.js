@@ -661,7 +661,7 @@ class FlashcardsApp {
         const answerText = document.getElementById('answerText');
         const counter = document.getElementById('cardCounter');
         const responseButtons = document.getElementById('responseButtons');
-        const flipBtn = document.getElementById('flipBtn');
+        const exampleText = document.getElementById('exampleText');
 
         if (this.flashcards.length === 0) {
             questionText.textContent = 'No flashcards available';
@@ -671,18 +671,23 @@ class FlashcardsApp {
         }
 
         const currentCard = this.flashcards[this.currentIndex];
-        questionText.textContent = currentCard.question;
-        answerText.textContent = currentCard.answer;
-        counter.textContent = `${this.currentIndex + 1} / ${this.flashcards.length}`;
 
-        // Reset flip state
+        // Reset flip state first (unflip the card)
         if (this.isFlipped) {
             card.classList.remove('flipped');
             this.isFlipped = false;
         }
 
-        // Reset buttons visibility
-        responseButtons.style.display = 'none';
+        // Wait for flip animation to complete before changing content
+        setTimeout(() => {
+            questionText.textContent = currentCard.question;
+            answerText.textContent = currentCard.answer;
+            exampleText.innerHTML = '';
+            counter.textContent = `${this.currentIndex + 1} / ${this.flashcards.length}`;
+
+            // Reset buttons visibility
+            responseButtons.style.display = 'none';
+        }, 300); // Match the CSS transition time
     }
 
     flipCard() {
