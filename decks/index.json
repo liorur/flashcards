@@ -33,5 +33,10 @@
     "id": "colors-family",
     "name": "Colors & Family",
     "file": "decks/colors-family.json"
+  },
+  {
+    "id": "dutch-course-unit-3",
+    "name": "Dutch course Unit 3",
+    "file": "decks/dutch-course-unit-3.json"
   }
 ]

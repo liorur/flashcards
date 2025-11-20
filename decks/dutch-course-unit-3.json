@@ -1,0 +1,359 @@
+[
+  {
+    "id": "000000u3v001",
+    "question": "viert (vieren)",
+    "answer": "is celebrating",
+    "example": "Hij viert zijn verjaardag in het café.",
+    "exampleTranslation": "He is celebrating his birthday in the café."
+  },
+  {
+    "id": "000000u3v002",
+    "question": "de verjaardag",
+    "answer": "birthday",
+    "example": "Vandaag is mijn verjaardag.",
+    "exampleTranslation": "Today is my birthday."
+  },
+  {
+    "id": "000000u3v003",
+    "question": "het café",
+    "answer": "café / pub",
+    "example": "Wij gaan naar het café.",
+    "exampleTranslation": "We are going to the café."
+  },
+  {
+    "id": "000000u3v004",
+    "question": "samen",
+    "answer": "together",
+    "example": "Wij drinken samen een biertje.",
+    "exampleTranslation": "We drink a beer together."
+  },
+  {
+    "id": "000000u3v005",
+    "question": "gefeliciteerd",
+    "answer": "happy birthday",
+    "example": "Gefeliciteerd met je verjaardag!",
+    "exampleTranslation": "Happy birthday!"
+  },
+  {
+    "id": "000000u3v006",
+    "question": "dank je wel",
+    "answer": "thank you",
+    "example": "Dank je wel voor het cadeau.",
+    "exampleTranslation": "Thank you for the gift."
+  },
+  {
+    "id": "000000u3v007",
+    "question": "dit is",
+    "answer": "this is",
+    "example": "Dit is mijn vriend.",
+    "exampleTranslation": "This is my friend."
+  },
+  {
+    "id": "000000u3v008",
+    "question": "prettig met je kennis te maken (kennismaken)",
+    "answer": "pleased to meet you",
+    "example": "Prettig met je kennis te maken!",
+    "exampleTranslation": "Pleased to meet you!"
+  },
+  {
+    "id": "000000u3v009",
+    "question": "kennen (kennen)",
+    "answer": "know (people)",
+    "example": "Wij kennen elkaar al jaren.",
+    "exampleTranslation": "We have known each other for years."
+  },
+  {
+    "id": "000000u3v010",
+    "question": "elkaar",
+    "answer": "one another",
+    "example": "Zij helpen elkaar.",
+    "exampleTranslation": "They help one another."
+  },
+  {
+    "id": "000000u3v011",
+    "question": "drinken",
+    "answer": "drink",
+    "example": "Wat wil je drinken?",
+    "exampleTranslation": "What do you want to drink?"
+  },
+  {
+    "id": "000000u3v012",
+    "question": "ik trakteer (trakteren)",
+    "answer": "it's my treat",
+    "example": "Ik trakteer vandaag!",
+    "exampleTranslation": "It's my treat today!"
+  },
+  {
+    "id": "000000u3v013",
+    "question": "wil graag (graag willen)",
+    "answer": "would like",
+    "example": "Ik wil graag een cola.",
+    "exampleTranslation": "I would like a cola."
+  },
+  {
+    "id": "000000u3v014",
+    "question": "de cola",
+    "answer": "cola",
+    "example": "Een cola alstublieft.",
+    "exampleTranslation": "A cola please."
+  },
+  {
+    "id": "000000u3v015",
+    "question": "biertje (het bier)",
+    "answer": "beer",
+    "example": "Mag ik een biertje?",
+    "exampleTranslation": "May I have a beer?"
+  },
+  {
+    "id": "000000u3v016",
+    "question": "neem (nemen)",
+    "answer": "have (take)",
+    "example": "Ik neem een koffie.",
+    "exampleTranslation": "I'll have a coffee."
+  },
+  {
+    "id": "000000u3v017",
+    "question": "rode (rood)",
+    "answer": "red",
+    "example": "Ik drink graag rode wijn.",
+    "exampleTranslation": "I like to drink red wine."
+  },
+  {
+    "id": "000000u3v018",
+    "question": "de wijn",
+    "answer": "wine",
+    "example": "De wijn is lekker.",
+    "exampleTranslation": "The wine is delicious."
+  },
+  {
+    "id": "000000u3v019",
+    "question": "roep (roepen)",
+    "answer": "call",
+    "example": "Roep de ober!",
+    "exampleTranslation": "Call the waiter!"
+  },
+  {
+    "id": "000000u3v020",
+    "question": "de ober",
+    "answer": "waiter",
+    "example": "De ober komt eraan.",
+    "exampleTranslation": "The waiter is coming."
+  },
+  {
+    "id": "000000u3v021",
+    "question": "mag (mogen)",
+    "answer": "may",
+    "example": "Mag ik bestellen?",
+    "exampleTranslation": "May I order?"
+  },
+  {
+    "id": "000000u3v022",
+    "question": "bestellen",
+    "answer": "order",
+    "example": "Wij willen graag bestellen.",
+    "exampleTranslation": "We would like to order."
+  },
+  {
+    "id": "000000u3v023",
+    "question": "alstublieft",
+    "answer": "please",
+    "example": "Een koffie alstublieft.",
+    "exampleTranslation": "A coffee please."
+  },
+  {
+    "id": "000000u3v024",
+    "question": "Franse (Frans)",
+    "answer": "French",
+    "example": "Ik spreek Frans.",
+    "exampleTranslation": "I speak French."
+  },
+  {
+    "id": "000000u3v025",
+    "question": "Spaanse (Spaans)",
+    "answer": "Spanish",
+    "example": "Dit is Spaanse wijn.",
+    "exampleTranslation": "This is Spanish wine."
+  },
+  {
+    "id": "000000u3v026",
+    "question": "Zuid-Afrikaanse (Zuid-Afrikaans)",
+    "answer": "South African",
+    "example": "Zij komt uit Zuid-Afrikaanse.",
+    "exampleTranslation": "She is from South Africa."
+  },
+  {
+    "id": "000000u3v027",
+    "question": "de",
+    "answer": "the",
+    "example": "De wijn is rood.",
+    "exampleTranslation": "The wine is red."
+  },
+  {
+    "id": "000000u3v028",
+    "question": "nou",
+    "answer": "well then",
+    "example": "Nou, proost!",
+    "exampleTranslation": "Well then, cheers!"
+  },
+  {
+    "id": "000000u3v029",
+    "question": "proost",
+    "answer": "cheers",
+    "example": "Proost op je verjaardag!",
+    "exampleTranslation": "Cheers to your birthday!"
+  },
+  {
+    "id": "000000u3v030",
+    "question": "op je verjaardag",
+    "answer": "happy birthday",
+    "example": "Proost op je verjaardag!",
+    "exampleTranslation": "Cheers to your birthday!"
+  },
+  {
+    "id": "000000u3v031",
+    "question": "bedankt",
+    "answer": "thanks",
+    "example": "Bedankt voor alles!",
+    "exampleTranslation": "Thanks for everything!"
+  },
+  {
+    "id": "000000u3v032",
+    "question": "het poosje",
+    "answer": "short while",
+    "example": "Een poosje later gaan wij naar huis.",
+    "exampleTranslation": "A short while later we go home."
+  },
+  {
+    "id": "000000u3v033",
+    "question": "later (laat)",
+    "answer": "later",
+    "example": "Tot later!",
+    "exampleTranslation": "See you later!"
+  },
+  {
+    "id": "000000u3v034",
+    "question": "zullen (zullen)",
+    "answer": "shall",
+    "example": "Zullen wij nog een keer bestellen?",
+    "exampleTranslation": "Shall we order once more?"
+  },
+  {
+    "id": "000000u3v035",
+    "question": "nog een keer",
+    "answer": "once more",
+    "example": "Zullen wij nog een keer bestellen?",
+    "exampleTranslation": "Shall we order once more?"
+  },
+  {
+    "id": "000000u3v036",
+    "question": "dat is",
+    "answer": "that is",
+    "example": "Dat is een goed idee.",
+    "exampleTranslation": "That is a good idea."
+  },
+  {
+    "id": "000000u3v037",
+    "question": "goed",
+    "answer": "good",
+    "example": "Dat is goed!",
+    "exampleTranslation": "That is good!"
+  },
+  {
+    "id": "000000u3v038",
+    "question": "het idee",
+    "answer": "idea",
+    "example": "Dat is een goed idee.",
+    "exampleTranslation": "That is a good idea."
+  },
+  {
+    "id": "000000u3v039",
+    "question": "hetzelfde",
+    "answer": "the same",
+    "example": "Ik neem hetzelfde.",
+    "exampleTranslation": "I'll have the same."
+  },
+  {
+    "id": "000000u3v040",
+    "question": "ja, graag",
+    "answer": "yes please",
+    "example": "Nog een biertje? Ja, graag.",
+    "exampleTranslation": "Another beer? Yes please."
+  },
+  {
+    "id": "000000u3v041",
+    "question": "dit",
+    "answer": "this",
+    "example": "Dit is mijn rondje.",
+    "exampleTranslation": "This is my round."
+  },
+  {
+    "id": "000000u3v042",
+    "question": "het rondje",
+    "answer": "round",
+    "example": "Dit rondje betaal ik.",
+    "exampleTranslation": "I'll pay for this round."
+  },
+  {
+    "id": "000000u3v043",
+    "question": "betaal (betalen)",
+    "answer": "pay",
+    "example": "Ik betaal het rondje.",
+    "exampleTranslation": "I pay for the round."
+  },
+  {
+    "id": "000000u3v044",
+    "question": "geef (geven)",
+    "answer": "give",
+    "example": "Geef mij nog maar een glas wijn.",
+    "exampleTranslation": "Give me another glass of wine."
+  },
+  {
+    "id": "000000u3v045",
+    "question": "nog maar",
+    "answer": "another",
+    "example": "Nog maar een biertje.",
+    "exampleTranslation": "Another beer."
+  },
+  {
+    "id": "000000u3v046",
+    "question": "het glas",
+    "answer": "glass",
+    "example": "Een glas rode wijn alstublieft.",
+    "exampleTranslation": "A glass of red wine please."
+  },
+  {
+    "id": "000000u3v047",
+    "question": "afrekenen",
+    "answer": "pay / settle the bill",
+    "example": "Wij willen graag afrekenen.",
+    "exampleTranslation": "We would like to pay."
+  },
+  {
+    "id": "000000u3v048",
+    "question": "alles",
+    "answer": "everything",
+    "example": "Bedankt voor alles!",
+    "exampleTranslation": "Thanks for everything!"
+  },
+  {
+    "id": "000000u3v049",
+    "question": "daarom",
+    "answer": "that's why",
+    "example": "Het is mijn verjaardag, daarom trakteer ik.",
+    "exampleTranslation": "It's my birthday, that's why I'm treating."
+  },
+  {
+    "id": "000000u3v050",
+    "question": "eerste",
+    "answer": "first",
+    "example": "Dit is mijn eerste biertje.",
+    "exampleTranslation": "This is my first beer."
+  },
+  {
+    "id": "000000u3v051",
+    "question": "tweede",
+    "answer": "second",
+    "example": "Dit is mijn tweede glas wijn.",
+    "exampleTranslation": "This is my second glass of wine."
+  }
+]

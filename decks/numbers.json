@@ -257,5 +257,75 @@
     "answer": "duizend",
     "example": "Duizend dank!",
     "exampleTranslation": "Thanks a lot! (lit. thousand thanks)"
+  },
+  {
+    "id": "ord001",
+    "question": "eerste",
+    "answer": "first",
+    "example": "Dit is mijn eerste biertje.",
+    "exampleTranslation": "This is my first beer."
+  },
+  {
+    "id": "ord002",
+    "question": "tweede",
+    "answer": "second",
+    "example": "Dit is mijn tweede glas wijn.",
+    "exampleTranslation": "This is my second glass of wine."
+  },
+  {
+    "id": "ord003",
+    "question": "derde",
+    "answer": "third",
+    "example": "Hij woont op de derde verdieping.",
+    "exampleTranslation": "He lives on the third floor."
+  },
+  {
+    "id": "ord004",
+    "question": "vierde",
+    "answer": "fourth",
+    "example": "Dit is de vierde keer.",
+    "exampleTranslation": "This is the fourth time."
+  },
+  {
+    "id": "ord005",
+    "question": "vijfde",
+    "answer": "fifth",
+    "example": "Het is de vijfde dag van de week.",
+    "exampleTranslation": "It is the fifth day of the week."
+  },
+  {
+    "id": "ord006",
+    "question": "zesde",
+    "answer": "sixth",
+    "example": "Mijn kantoor is op de zesde verdieping.",
+    "exampleTranslation": "My office is on the sixth floor."
+  },
+  {
+    "id": "ord007",
+    "question": "zevende",
+    "answer": "seventh",
+    "example": "Zondag is de zevende dag.",
+    "exampleTranslation": "Sunday is the seventh day."
+  },
+  {
+    "id": "ord008",
+    "question": "achtste",
+    "answer": "eighth",
+    "example": "Vandaag is de achtste van de maand.",
+    "exampleTranslation": "Today is the eighth of the month."
+  },
+  {
+    "id": "ord009",
+    "question": "negende",
+    "answer": "ninth",
+    "example": "Dit is de negende les.",
+    "exampleTranslation": "This is the ninth lesson."
+  },
+  {
+    "id": "ord010",
+    "question": "tiende",
+    "answer": "tenth",
+    "example": "Het is de tiende keer dat ik hier kom.",
+    "exampleTranslation": "It is the tenth time I come here."
   }
 ]
